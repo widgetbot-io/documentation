@@ -70,7 +70,12 @@ This opens up the ability for your website to dynamically interact with Crate, m
 ### Using the default `window.crate` API
 ```html
 <head>
-  <script src="https://crate.widgetbot.io/v2"></script>
+  <script src="https://crate.widgetbot.io/v2">
+    new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096'
+    })
+  </script>
 </head>
 <body>
   <script>
@@ -82,79 +87,70 @@ This opens up the ability for your website to dynamically interact with Crate, m
 
 ### Initialising a custom crate object
 ```html
-<head>
-  <script src="https://crate.widgetbot.io/v2"></script>
-</head>
-<body>
-  <script>
-    let myCrateButton = new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096'
-    })
+<script src="https://crate.widgetbot.io/v2"></script>
 
-    myCrateButton.toggle()
-  </script>
-</body>
+<script>
+  let myCrateButton = new Crate({
+    server: '299881420891881473',
+    channel: '355719584830980096'
+  })
+
+  myCrateButton.toggle()
+</script>
 ```
 
 ### Manipulating the state with dynamic content
 ```html
-<head>
-  <script src="https://crate.widgetbot.io/v2"></script>
-</head>
-<body>
-  <script>
-    let config = {
-      server: '299881420891881473',
-      channel: '355719584830980096',
-      buttons: {
-        primary: `The date is ${new Date().toLocaleDateString()}`
-      }
+<script src="https://crate.widgetbot.io/v2"></script>
+
+<script>
+  let config = {
+    server: '299881420891881473',
+    channel: '355719584830980096',
+    buttons: {
+      primary: `The date is ${new Date().toLocaleDateString()}`
     }
+  }
 
-    let myCrateButton = new Crate(config)
+  let myCrateButton = new Crate(config)
 
-    // Toggle Crate every 2 seconds
-    setInterval(() => {
-      myCrateButton.toggle()
-      console.log(`open: ${myCrateButton.state.view.open}`)
-    }, 2 * 1000)
+  // Toggle Crate every 2 seconds
+  setInterval(() => {
+    myCrateButton.toggle()
+    console.log(`open: ${myCrateButton.state.view.open}`)
+  }, 2 * 1000)
 
-    // Remove crate after 30 seconds
-    setTimeout(() => {
-      myCrateButton.remove()
-    }, 30 * 1000)
-  </script>
-</body>
+  // Remove crate after 30 seconds
+  setTimeout(() => {
+    myCrateButton.remove()
+  }, 30 * 1000)
+</script>
 ```
 
-### Using instances of crate at the same time
+### Using multiple instances of crate at the same time
 ```html
-<head>
-  <script src="https://crate.widgetbot.io/v2"></script>
-</head>
-<body>
-  <script>
-    let crateOne = new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096',
-      position: {
-        x: 'right',
-        y: 'bottom'
-      }
-    })
+<script src="https://crate.widgetbot.io/v2"></script>
 
-    let crateTwo = new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096',
-      position: {
-        x: 'left',
-        y: 'top'
-      },
-      colors: {
-        toggle: '#000'
-      }
-    }) 
-  </script>
-</body>
+<script>
+  let crateOne = new Crate({
+    server: '299881420891881473',
+    channel: '355719584830980096',
+    position: {
+      x: 'right',
+      y: 'bottom'
+    }
+  })
+
+  let crateTwo = new Crate({
+    server: '299881420891881473',
+    channel: '355719584830980096',
+    position: {
+      x: 'left',
+      y: 'top'
+    },
+    colors: {
+      toggle: '#000'
+    }
+  }) 
+</script>
 ```
