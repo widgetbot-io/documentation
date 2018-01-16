@@ -4,7 +4,7 @@
 	</a>
   <h3 align="center">Crate</h3>
   <p align="center">
-    Clean &amp; powerful popup Discord widgets for your website
+    Popup Discord widgets for your website.
   </p>
 </p>
 <p align="center">
@@ -28,3 +28,133 @@
 	</a>
 </p>
 <h2></h2>
+
+![Demo](https://i.imgur.com/GjHSu16.gif)
+
+## What is crate?
+
+## Adding WidgetBot to your server
+Head over to [`WidgetBot.io`](https://widgetbot.io) and follow the straight-forward process of inviting the bot to your server and enabling the widget for your chosen channel.
+
+
+## Getting started
+
+Simply load the crate Javascript library and specify your server & channel ID:
+
+```html
+<script src="https://crate.widgetbot.io/v2">
+  new Crate({
+    server: '299881420891881473',
+    channel: '355719584830980096'
+  })
+</script>
+```
+
+A new instance of the Crate button will be created, and it's API available at `window.crate`.
+
+
+
+
+## Configuration
+
+Crate is built to be highly customizable and dynamic. You can specify the configuration to use as a Javascript object inside the `new Crate()` constructor.
+
+
+## API
+
+As soon as you've loaded the Crate Javascript library, a global `Crate` constructor becomes available to use anywhere on your website.
+
+This opens up the ability for your website to dynamically interact with Crate, modify it's state and change the configuration in __real time__
+
+## Examples
+### Using the default `window.crate` API
+```html
+<head>
+  <script src="https://crate.widgetbot.io/v2"></script>
+</head>
+<body>
+  <script>
+    console.log(crate.state)
+    crate.toggle()
+  </script>
+</body>
+```
+
+### Initialising a custom crate object
+```html
+<head>
+  <script src="https://crate.widgetbot.io/v2"></script>
+</head>
+<body>
+  <script>
+    let myCrateButton = new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096'
+    })
+
+    myCrateButton.toggle()
+  </script>
+</body>
+```
+
+### Manipulating the state with dynamic content
+```html
+<head>
+  <script src="https://crate.widgetbot.io/v2"></script>
+</head>
+<body>
+  <script>
+    let config = {
+      server: '299881420891881473',
+      channel: '355719584830980096',
+      buttons: {
+        primary: `The date is ${new Date().toLocaleDateString()}`
+      }
+    }
+
+    let myCrateButton = new Crate(config)
+
+    // Toggle Crate every 2 seconds
+    setInterval(() => {
+      myCrateButton.toggle()
+      console.log(`open: ${myCrateButton.state.view.open}`)
+    }, 2 * 1000)
+
+    // Remove crate after 30 seconds
+    setTimeout(() => {
+      myCrateButton.remove()
+    }, 30 * 1000)
+  </script>
+</body>
+```
+
+### Using instances of crate at the same time
+```html
+<head>
+  <script src="https://crate.widgetbot.io/v2"></script>
+</head>
+<body>
+  <script>
+    let crateOne = new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096',
+      position: {
+        x: 'right',
+        y: 'bottom'
+      }
+    })
+
+    let crateTwo = new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096',
+      position: {
+        x: 'left',
+        y: 'top'
+      },
+      colors: {
+        toggle: '#000'
+      }
+    }) 
+  </script>
+</body>
+```
