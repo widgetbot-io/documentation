@@ -12,7 +12,7 @@
 		<a href="https://crate.widgetbot.io/?ref=demo">
 			Demo
 		</a>&nbsp;|
-		<a href="https://trello.com/b/">
+		<a href="https://trello.com/b/X9ZFUHmv/crate">
 			Trello
     </a>&nbsp;|
 		<a href="https://beta.widgetbot.io/demo/">
