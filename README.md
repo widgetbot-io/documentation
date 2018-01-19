@@ -42,7 +42,7 @@ Head over to [`WidgetBot.io`](https://widgetbot.io) and follow the straight-forw
 Simply load the crate Javascript library and specify your server & channel ID:
 
 ```html
-<script src="https://crate.widgetbot.io/v2">
+<script src="https://crate.widgetbot.io/v2" async defer>
   new Crate({
     server: '299881420891881473',
     channel: '355719584830980096'
@@ -69,25 +69,21 @@ This opens up the ability for your website to dynamically interact with Crate, m
 ## Examples
 ### Using the default `window.crate` API
 ```html
-<head>
-  <script src="https://crate.widgetbot.io/v2">
-    new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096'
-    })
-  </script>
-</head>
-<body>
-  <script>
-    console.log(crate.state)
-    crate.toggle()
-  </script>
-</body>
+<script src="https://crate.widgetbot.io/v2" async defer>
+  new Crate({
+    server: '299881420891881473',
+    channel: '355719584830980096'
+  })
+</script>
+<script>
+  console.log(crate.state)
+  crate.toggle()
+</script>
 ```
 
 ### Initialising a custom crate object
 ```html
-<script src="https://crate.widgetbot.io/v2"></script>
+<script src="https://crate.widgetbot.io/v2" async defer></script>
 
 <script>
   let myCrateButton = new Crate({
@@ -101,7 +97,7 @@ This opens up the ability for your website to dynamically interact with Crate, m
 
 ### Manipulating the state with dynamic content
 ```html
-<script src="https://crate.widgetbot.io/v2"></script>
+<script src="https://crate.widgetbot.io/v2" async defer></script>
 
 <script>
   let config = {
@@ -129,7 +125,7 @@ This opens up the ability for your website to dynamically interact with Crate, m
 
 ### Using multiple instances of crate at the same time
 ```html
-<script src="https://crate.widgetbot.io/v2"></script>
+<script src="https://crate.widgetbot.io/v2" async defer></script>
 
 <script>
   let crateOne = new Crate({
