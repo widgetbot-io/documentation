@@ -67,9 +67,9 @@ As soon as you've loaded the Crate Javascript library, a global `Crate` construc
 This opens up the ability for your website to dynamically interact with Crate, modify it's state and change the configuration in __real time__
 
 ## Examples
-### Using the default `window.crate` API
+### Synchronously: Using the default `window.crate` API
 ```html
-<script src="https://crate.widgetbot.io/v2" async defer>
+<script src="https://crate.widgetbot.io/v2">
   new Crate({
     server: '299881420891881473',
     channel: '355719584830980096'
@@ -81,9 +81,25 @@ This opens up the ability for your website to dynamically interact with Crate, m
 </script>
 ```
 
-### Initialising a custom crate object
+### Asynchronously: Using the default `window.crate` API
 ```html
-<script src="https://crate.widgetbot.io/v2" async defer></script>
+<script src="https://crate.widgetbot.io/v2" async defer>
+  new Crate({
+    server: '299881420891881473',
+    channel: '355719584830980096'
+  })
+</script>
+<script>
+  addEventListener('crate', ({ Crate }) => {
+    console.log(crate.state)
+    crate.toggle()
+  })
+</script>
+```
+
+### Synchronously: Initialising a custom crate object
+```html
+<script src="https://crate.widgetbot.io/v2"></script>
 
 <script>
   let myCrateButton = new Crate({
@@ -95,58 +111,77 @@ This opens up the ability for your website to dynamically interact with Crate, m
 </script>
 ```
 
-### Manipulating the state with dynamic content
+### Asynchronously: Initialising a custom crate object
 ```html
 <script src="https://crate.widgetbot.io/v2" async defer></script>
 
 <script>
-  let config = {
-    server: '299881420891881473',
-    channel: '355719584830980096',
-    buttons: {
-      primary: `The date is ${new Date().toLocaleDateString()}`
-    }
-  }
-
-  let myCrateButton = new Crate(config)
-
-  // Toggle Crate every 2 seconds
-  setInterval(() => {
+  addEventListener('crate', ({ Crate }) => {
+    let myCrateButton = new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096'
+    })
     myCrateButton.toggle()
-    console.log(`open: ${myCrateButton.state.view.open}`)
-  }, 2 * 1000)
-
-  // Remove crate after 30 seconds
-  setTimeout(() => {
-    myCrateButton.remove()
-  }, 30 * 1000)
+  })
 </script>
 ```
 
-### Using multiple instances of crate at the same time
+### Asynchronously: Manipulating the state with dynamic content
 ```html
 <script src="https://crate.widgetbot.io/v2" async defer></script>
 
 <script>
-  let crateOne = new Crate({
-    server: '299881420891881473',
-    channel: '355719584830980096',
-    position: {
-      x: 'right',
-      y: 'bottom'
+  addEventListener('crate', ({ Crate }) => {
+    let config = {
+      server: '299881420891881473',
+      channel: '355719584830980096',
+      buttons: {
+        primary: `The date is ${new Date().toLocaleDateString()}`
+      }
     }
-  })
 
-  let crateTwo = new Crate({
-    server: '299881420891881473',
-    channel: '355719584830980096',
-    position: {
-      x: 'left',
-      y: 'top'
-    },
-    colors: {
-      toggle: '#000'
-    }
-  }) 
+    let myCrateButton = new Crate(config)
+
+    // Toggle Crate every 2 seconds
+    setInterval(() => {
+      myCrateButton.toggle()
+      console.log(`open: ${myCrateButton.state.view.open}`)
+    }, 2 * 1000)
+
+    // Remove crate after 30 seconds
+    setTimeout(() => {
+      myCrateButton.remove()
+    }, 30 * 1000)
+  })
+</script>
+```
+
+### Asynchronously: Using multiple instances of crate at the same time
+```html
+<script src="https://crate.widgetbot.io/v2" async defer></script>
+
+<script>
+  addEventListener('crate', ({ Crate }) => {
+    let crateOne = new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096',
+      position: {
+        x: 'right',
+        y: 'bottom'
+      }
+    })
+
+    let crateTwo = new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096',
+      position: {
+        x: 'left',
+        y: 'top'
+      },
+      colors: {
+        toggle: '#000'
+      }
+    })
+  })
 </script>
 ```
