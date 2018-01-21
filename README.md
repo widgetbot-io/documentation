@@ -68,154 +68,41 @@ This opens up the ability for your website to dynamically interact with Crate, m
 
 ## Examples
 ### [Synchronously: Using the default `window.crate` API](https://codepen.io/samdenty99/pen/WdPLLV)
-```html
-<script src="https://crate.widgetbot.io/v2">
-  new Crate({
-    server: '299881420891881473',
-    channel: '355719584830980096'
-  })
-</script>
-<script>
-  console.log(crate.state)
-  crate.toggle()
-</script>
-```
+<p data-height="265" data-theme-id="dark" data-slug-hash="WdPLLV" data-default-tab="html,result" data-user="samdenty99" data-embed-version="2" data-pen-title="WdPLLV" class="codepen">See the Pen <a href="https://codepen.io/samdenty99/pen/WdPLLV/">WdPLLV</a> by Sam Denty (<a href="https://codepen.io/samdenty99">@samdenty99</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+
 
 ### [Asynchronously: Using the default `window.crate` API](https://codepen.io/samdenty99/pen/YYBdBL)
-```html
-<script src="https://crate.widgetbot.io/v2" async defer>
-  new Crate({
-    server: '299881420891881473',
-    channel: '355719584830980096'
-  })
-</script>
-<script>
-  addEventListener('crate', ({ Crate }) => {
-    console.log(crate.state)
-    crate.toggle()
-  })
-</script>
-```
+<p data-height="265" data-theme-id="dark" data-slug-hash="YYBdBL" data-default-tab="html,result" data-user="samdenty99" data-embed-version="2" data-pen-title="YYBdBL" class="codepen">See the Pen <a href="https://codepen.io/samdenty99/pen/YYBdBL/">YYBdBL</a> by Sam Denty (<a href="https://codepen.io/samdenty99">@samdenty99</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+
 
 ### [Synchronously: Initialising a custom crate object](https://codepen.io/samdenty99/pen/ppGqYJ)
-```html
-<script src="https://crate.widgetbot.io/v2"></script>
+<p data-height="265" data-theme-id="dark" data-slug-hash="ppGqYJ" data-default-tab="html,result" data-user="samdenty99" data-embed-version="2" data-pen-title="ppGqYJ" class="codepen">See the Pen <a href="https://codepen.io/samdenty99/pen/ppGqYJ/">ppGqYJ</a> by Sam Denty (<a href="https://codepen.io/samdenty99">@samdenty99</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-<script>
-  let myCrateButton = new Crate({
-    server: '299881420891881473',
-    channel: '355719584830980096'
-  })
 
-  myCrateButton.toggle()
-</script>
-```
 
 ### [Asynchronously: Initialising a custom crate object](https://codepen.io/samdenty99/pen/rpPoRW)
-```html
-<script src="https://crate.widgetbot.io/v2" async defer></script>
+<p data-height="265" data-theme-id="dark" data-slug-hash="rpPoRW" data-default-tab="html,result" data-user="samdenty99" data-embed-version="2" data-pen-title="rpPoRW" class="codepen">See the Pen <a href="https://codepen.io/samdenty99/pen/rpPoRW/">rpPoRW</a> by Sam Denty (<a href="https://codepen.io/samdenty99">@samdenty99</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-<script>
-  addEventListener('crate', ({ Crate }) => {
-    let myCrateButton = new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096'
-    })
-    myCrateButton.toggle()
-  })
-</script>
-```
+
 
 ### [Asynchronously: Using multiple instances of crate at the same time](https://codepen.io/samdenty99/pen/aEXPMw)
-```html
-<script src="https://crate.widgetbot.io/v2" async defer></script>
+<p data-height="265" data-theme-id="dark" data-slug-hash="aEXPMw" data-default-tab="html,result" data-user="samdenty99" data-embed-version="2" data-pen-title="aEXPMw" class="codepen">See the Pen <a href="https://codepen.io/samdenty99/pen/aEXPMw/">aEXPMw</a> by Sam Denty (<a href="https://codepen.io/samdenty99">@samdenty99</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-<script>
-  addEventListener('crate', ({ Crate }) => {
-    let crateOne = new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096',
-      position: {
-        x: 'right',
-        y: 'bottom'
-      }
-    })
 
-    let crateTwo = new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096',
-      position: {
-        x: 'left',
-        y: 'top'
-      },
-      colors: {
-        toggle: '#000'
-      }
-    })
-  })
-</script>
-```
 
 ### [Asynchronously: Dynamically updating the state](https://codepen.io/samdenty99/pen/LeqMae)
-```html
-<script src="https://crate.widgetbot.io/v2" async defer></script>
+<p data-height="265" data-theme-id="dark" data-slug-hash="LeqMae" data-default-tab="html,result" data-user="samdenty99" data-embed-version="2" data-pen-title="LeqMae" class="codepen">See the Pen <a href="https://codepen.io/samdenty99/pen/LeqMae/">LeqMae</a> by Sam Denty (<a href="https://codepen.io/samdenty99">@samdenty99</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-<script>
-  addEventListener('crate', ({ Crate }) => {
-    myCrateButton = new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096',
-      delay: true
-    })
 
-    // Random color every 300 milliseconds
-    setInterval(() => {
-      myCrateButton.config({
-        colors: {
-          toggle: "#000000".replace(/0/g, () => {return(~~(Math.random() * 16)).toString(16)})
-        }
-      })
-    }, 300)
-
-    // Switch position every 2 seconds
-    setInterval(() => {
-      myCrateButton.config({
-        position: {
-          x: myCrateButton.state.config.position.x === 'left' ? 'right' : 'left'
-        }
-      })
-    }, 2000)
-  })
-</script>
-```
 
 ### [Asynchronously: Dynamically interacting with the button](https://codepen.io/samdenty99/pen/goqZEZ)
-```html
-<script src="https://crate.widgetbot.io/v2" async defer></script>
-
-<script>
-  addEventListener('crate', ({ Crate }) => {
-    let myCrateButton = new Crate({
-      server: '299881420891881473',
-      channel: '355719584830980096',
-      buttons: {
-        primary: `The date is ${new Date().toLocaleDateString()}`
-      },
-      logo: {
-        url: 'http://thecatapi.com/api/images/get?format=src&type=gif&' + new Date(),
-        size: '100% 100%'
-      }
-    })
-
-    // Random cat pictures every 4s
-    setInterval(() => {
-      myCrateButton.config({
-        logo: {
-          url: 'http://thecatapi.com/api/images/get?format=src&type=gif&' + new Date(),
-          size: '100% 100%'
-        }
-      })
-    }, 4000)
-  })
-</script>
-```
+<p data-height="265" data-theme-id="dark" data-slug-hash="goqZEZ" data-default-tab="html,result" data-user="samdenty99" data-embed-version="2" data-pen-title="goqZEZ" class="codepen">See the Pen <a href="https://codepen.io/samdenty99/pen/goqZEZ/">goqZEZ</a> by Sam Denty (<a href="https://codepen.io/samdenty99">@samdenty99</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
