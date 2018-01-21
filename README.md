@@ -67,7 +67,7 @@ As soon as you've loaded the Crate Javascript library, a global `Crate` construc
 This opens up the ability for your website to dynamically interact with Crate, modify it's state and change the configuration in __real time__
 
 ## Examples
-### Synchronously: Using the default `window.crate` API
+### [Synchronously: Using the default `window.crate` API](https://codepen.io/samdenty99/pen/WdPLLV)
 ```html
 <script src="https://crate.widgetbot.io/v2">
   new Crate({
@@ -81,7 +81,7 @@ This opens up the ability for your website to dynamically interact with Crate, m
 </script>
 ```
 
-### Asynchronously: Using the default `window.crate` API
+### [Asynchronously: Using the default `window.crate` API](https://codepen.io/samdenty99/pen/YYBdBL)
 ```html
 <script src="https://crate.widgetbot.io/v2" async defer>
   new Crate({
@@ -97,7 +97,7 @@ This opens up the ability for your website to dynamically interact with Crate, m
 </script>
 ```
 
-### Synchronously: Initialising a custom crate object
+### [Synchronously: Initialising a custom crate object](https://codepen.io/samdenty99/pen/ppGqYJ)
 ```html
 <script src="https://crate.widgetbot.io/v2"></script>
 
@@ -111,7 +111,7 @@ This opens up the ability for your website to dynamically interact with Crate, m
 </script>
 ```
 
-### Asynchronously: Initialising a custom crate object
+### [Asynchronously: Initialising a custom crate object](https://codepen.io/samdenty99/pen/rpPoRW)
 ```html
 <script src="https://crate.widgetbot.io/v2" async defer></script>
 
@@ -126,37 +126,7 @@ This opens up the ability for your website to dynamically interact with Crate, m
 </script>
 ```
 
-### Asynchronously: Manipulating the state with dynamic content
-```html
-<script src="https://crate.widgetbot.io/v2" async defer></script>
-
-<script>
-  addEventListener('crate', ({ Crate }) => {
-    let config = {
-      server: '299881420891881473',
-      channel: '355719584830980096',
-      buttons: {
-        primary: `The date is ${new Date().toLocaleDateString()}`
-      }
-    }
-
-    let myCrateButton = new Crate(config)
-
-    // Toggle Crate every 2 seconds
-    setInterval(() => {
-      myCrateButton.toggle()
-      console.log(`open: ${myCrateButton.state.view.open}`)
-    }, 2 * 1000)
-
-    // Remove crate after 30 seconds
-    setTimeout(() => {
-      myCrateButton.remove()
-    }, 30 * 1000)
-  })
-</script>
-```
-
-### Asynchronously: Using multiple instances of crate at the same time
+### [Asynchronously: Using multiple instances of crate at the same time](https://codepen.io/samdenty99/pen/aEXPMw)
 ```html
 <script src="https://crate.widgetbot.io/v2" async defer></script>
 
@@ -182,6 +152,70 @@ This opens up the ability for your website to dynamically interact with Crate, m
         toggle: '#000'
       }
     })
+  })
+</script>
+```
+
+### [Asynchronously: Dynamically updating the state](https://codepen.io/samdenty99/pen/LeqMae)
+```html
+<script src="https://crate.widgetbot.io/v2" async defer></script>
+
+<script>
+  addEventListener('crate', ({ Crate }) => {
+    myCrateButton = new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096',
+      delay: true
+    })
+
+    // Random color every 300 milliseconds
+    setInterval(() => {
+      myCrateButton.config({
+        colors: {
+          toggle: "#000000".replace(/0/g, () => {return(~~(Math.random() * 16)).toString(16)})
+        }
+      })
+    }, 300)
+
+    // Switch position every 2 seconds
+    setInterval(() => {
+      myCrateButton.config({
+        position: {
+          x: myCrateButton.state.config.position.x === 'left' ? 'right' : 'left'
+        }
+      })
+    }, 2000)
+  })
+</script>
+```
+
+### [Asynchronously: Dynamically interacting with the button](https://codepen.io/samdenty99/pen/goqZEZ)
+```html
+<script src="https://crate.widgetbot.io/v2" async defer></script>
+
+<script>
+  addEventListener('crate', ({ Crate }) => {
+    let myCrateButton = new Crate({
+      server: '299881420891881473',
+      channel: '355719584830980096',
+      buttons: {
+        primary: `The date is ${new Date().toLocaleDateString()}`
+      },
+      logo: {
+        url: 'http://thecatapi.com/api/images/get?format=src&type=gif&' + new Date(),
+        size: '100% 100%'
+      }
+    })
+
+    // Random cat pictures every 4s
+    setInterval(() => {
+      myCrateButton.config({
+        logo: {
+          url: 'http://thecatapi.com/api/images/get?format=src&type=gif&' + new Date(),
+          size: '100% 100%'
+        }
+      })
+    }, 4000)
   })
 </script>
 ```
