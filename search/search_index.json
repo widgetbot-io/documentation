@@ -1,0 +1,74 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Crate\n\n  \n\n    Popup Discord widgets for your website.\n  \n\n\n\n\n\n\n    \n\n        \n\n            Demo\n        \n\u00a0|\n        \n\n            Trello\n    \n\u00a0|\n        \n\n            Discord\n        \n\n    \n\n    \n\n  \n\n        \n\n    \n\n    \n\n        \n\n    \n\n\n\n\n\n\n\n\nWhat is it?\n\u00b6\n\n\nCrate is a JS library that allows you to place Discord buttons on your website. It features\n\n\n\n\nReal-time messages toasts on your website\n\n\nUnread message indicator\n\n\nHighly configurable options\n\n\nExtensive API",
+            "title": "Introduction"
+        },
+        {
+            "location": "/#what-is-it",
+            "text": "Crate is a JS library that allows you to place Discord buttons on your website. It features   Real-time messages toasts on your website  Unread message indicator  Highly configurable options  Extensive API",
+            "title": "What is it?"
+        },
+        {
+            "location": "/options/",
+            "text": "Options\n\u00b6\n\n\nTypescript typings\n/**\n\n\n * WidgetBot widget options\n\n\n */\n\n\nserver\n: \nstring\n                \n// Your guilds ID\n\n\nchannel\n: \nstring\n               \n// Channel ID\n\n\noptions?\n: \nstring\n              \n// WidgetBot widget options\n\n\nbeta?\n: \nboolean\n                \n// Whether to use the beta domain or not\n\n\nbuttons\n?:\n \n{\n                   \n// Change text of buttons\n\n  \nprimary?\n: \nstring\n\n  \nsecondar?\n: \nstring\n\n\n}\n\n\nusername\n: \nstring\n              \n// Use a specific username for the guest chatter\n\n\n\n/**\n\n\n * Aesthetic options\n\n\n */\n\n\nlogo?\n: \nUrl\n \n|\n \n'intercom'\n \n|\n \n'discord'\n \n|\n \nany\n \n|\n \n{\n\n  \nurl\n: \nUrl\n\n  \nsize?\n: \nstring\n\n\n}\n\n\nscheme\n?:\n \n'dark'\n \n|\n \n'light'\n     \n// Whether to show dark or light toasts\n\n\nstyle\n?:\n \n'material'\n \n|\n \n'default'\n// Toggle button style\n\n\ncolors\n?:\n \n{\n\n  \ntoggle?\n: \nstring\n             \n// Crate toggle button color\n\n  \nbackground?\n: \nstring\n         \n// WidgetBot widget background\n\n  \nbutton?\n: \nstring\n             \n// WidgetBot `Start chatting` button color\n\n\n}\n\n\nposition\n:\n \n{\n\n  \nx\n:\n \n'left'\n \n|\n \n'right'\n\n  \ny\n:\n \n'top'\n \n|\n \n'bottom'\n\n\n}\n\n\ncontained\n: \nboolean\n            \n// Display modals in iframe or in the window\n\n\n\n/**\n\n\n * Notifications\n\n\n */\n\n\nnotifications\n?:\n \n{\n\n  \nindicator\n?:\n \n{\n\n    \nenable\n: \nboolean\n\n  \n}\n\n  \ntoasts\n?:\n \n{\n\n    \nenable\n: \nboolean\n           \n// Whether to enable toasts or not\n\n    \nvisibilityTime?\n: \nnumber\n   \n// Max amount of time the toasts should be visible for (set to 0 to disable timeout)\n\n    \nmaxMessages?\n: \nnumber\n      \n// Max amount of messages to display on screen\n\n    \nmaxHeight?\n: \nstring\n        \n// Max height of the toast container, CSS `calc()` can be used\n\n  \n}\n\n\n}\n\n\n\n/**\n\n\n * General options\n\n\n */\n\n\ndelay?\n: \nboolean\n               \n// Only load the widget once the button has been clicked",
+            "title": "Options"
+        },
+        {
+            "location": "/options/#options",
+            "text": "Typescript typings /**   * WidgetBot widget options   */  server :  string                  // Your guilds ID  channel :  string                 // Channel ID  options? :  string                // WidgetBot widget options  beta? :  boolean                  // Whether to use the beta domain or not  buttons ?:   {                     // Change text of buttons \n   primary? :  string \n   secondar? :  string  }  username :  string                // Use a specific username for the guest chatter  /**   * Aesthetic options   */  logo? :  Url   |   'intercom'   |   'discord'   |   any   |   { \n   url :  Url \n   size? :  string  }  scheme ?:   'dark'   |   'light'       // Whether to show dark or light toasts  style ?:   'material'   |   'default' // Toggle button style  colors ?:   { \n   toggle? :  string               // Crate toggle button color \n   background? :  string           // WidgetBot widget background \n   button? :  string               // WidgetBot `Start chatting` button color  }  position :   { \n   x :   'left'   |   'right' \n   y :   'top'   |   'bottom'  }  contained :  boolean              // Display modals in iframe or in the window  /**   * Notifications   */  notifications ?:   { \n   indicator ?:   { \n     enable :  boolean \n   } \n   toasts ?:   { \n     enable :  boolean             // Whether to enable toasts or not \n     visibilityTime? :  number     // Max amount of time the toasts should be visible for (set to 0 to disable timeout) \n     maxMessages? :  number        // Max amount of messages to display on screen \n     maxHeight? :  string          // Max height of the toast container, CSS `calc()` can be used \n   }  }  /**   * General options   */  delay? :  boolean                 // Only load the widget once the button has been clicked",
+            "title": "Options"
+        },
+        {
+            "location": "/api/",
+            "text": "",
+            "title": "API"
+        },
+        {
+            "location": "/examples/",
+            "text": "Async\n\u00b6\n\n\nDefault \nwindow.crate\n object\n\u00b6\n\n\nSee the Pen \nYYBdBL\n by Sam Denty (\n@samdenty99\n) on \nCodePen\n.\n\n\n\n\nInitialising a custom crate object\n\u00b6\n\n\nSee the Pen \nrpPoRW\n by Sam Denty (\n@samdenty99\n) on \nCodePen\n.\n\n\n\n\nMultiple instances at the same time\n\u00b6\n\n\nSee the Pen \naEXPMw\n by Sam Denty (\n@samdenty99\n) on \nCodePen\n.\n\n\n\n\nUpdating the state\n\u00b6\n\n\nSee the Pen \nLeqMae\n by Sam Denty (\n@samdenty99\n) on \nCodePen\n.\n\n\n\n\nDynamically interacting with the button\n\u00b6\n\n\nSee the Pen \ngoqZEZ\n by Sam Denty (\n@samdenty99\n) on \nCodePen\n.\n\n\n\n\n\n\n\nSync\n\u00b6\n\n\nWe recommend using the \nasync\n version of the API, as it'll make your website \nway faster\n. The synchronous version should only be used if it's being dynamically inserted into your website after the page's initial load (eg. A custom JS script)\n\n\nInitialising a custom crate object\n\u00b6\n\n\nSee the Pen \nppGqYJ\n by Sam Denty (\n@samdenty99\n) on \nCodePen\n.",
+            "title": "Examples"
+        },
+        {
+            "location": "/examples/#async",
+            "text": "",
+            "title": "Async"
+        },
+        {
+            "location": "/examples/#default-windowcrate-object",
+            "text": "See the Pen  YYBdBL  by Sam Denty ( @samdenty99 ) on  CodePen .",
+            "title": "Default window.crate object"
+        },
+        {
+            "location": "/examples/#initialising-a-custom-crate-object",
+            "text": "See the Pen  rpPoRW  by Sam Denty ( @samdenty99 ) on  CodePen .",
+            "title": "Initialising a custom crate object"
+        },
+        {
+            "location": "/examples/#multiple-instances-at-the-same-time",
+            "text": "See the Pen  aEXPMw  by Sam Denty ( @samdenty99 ) on  CodePen .",
+            "title": "Multiple instances at the same time"
+        },
+        {
+            "location": "/examples/#updating-the-state",
+            "text": "See the Pen  LeqMae  by Sam Denty ( @samdenty99 ) on  CodePen .",
+            "title": "Updating the state"
+        },
+        {
+            "location": "/examples/#dynamically-interacting-with-the-button",
+            "text": "See the Pen  goqZEZ  by Sam Denty ( @samdenty99 ) on  CodePen .",
+            "title": "Dynamically interacting with the button"
+        },
+        {
+            "location": "/examples/#sync",
+            "text": "We recommend using the  async  version of the API, as it'll make your website  way faster . The synchronous version should only be used if it's being dynamically inserted into your website after the page's initial load (eg. A custom JS script)",
+            "title": "Sync"
+        },
+        {
+            "location": "/examples/#initialising-a-custom-crate-object_1",
+            "text": "See the Pen  ppGqYJ  by Sam Denty ( @samdenty99 ) on  CodePen .",
+            "title": "Initialising a custom crate object"
+        }
+    ]
+}

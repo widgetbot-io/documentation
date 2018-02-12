@@ -1,0 +1,6 @@
+/* Padding fix for discord button */
+
+.md-footer-meta__inner.md-grid,
+.md-footer-nav__inner.md-grid {
+  padding-right: calc(.4rem + 60px) !important
+}
