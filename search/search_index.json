@@ -22,7 +22,7 @@
         },
         {
             "location": "/api/",
-            "text": "API\n\u00b6\n\n\nOnce you've initialised a new constructor, you can manipulate it using the following methods\n\n\ntoggle\n(\nopen\n?:\n \nboolean\n)\n\u00b6\n\n\nToggles the message view, with an optional param to set it.\n\n\n\n\nUsage\n\n\n// Toggle\n\n\ncrate\n.\ntoggle\n()\n\n\n\n// Toggle open\n\n\ncrate\n.\ntoggle\n(\ntrue\n)\n\n\n\n// Toggle closed\n\n\ncrate\n.\ntoggle\n(\nfalse\n)\n\n\n\n\n\n\n\n\n\nshow\n()\n\u00b6\n\n\nShows the message view. Alias for \ntoggle(false)\n\n\n\n\nUsage\n\n\n// Toggle open\n\n\ncrate\n.\nshow\n()\n\n\n\n\n\n\n\n\n\nhide\n()\n\u00b6\n\n\nHides the message view. Alias for \ntoggle(false)\n\n\n\n\nUsage\n\n\n// Toggle open\n\n\ncrate\n.\nshow\n()\n\n\n\n\n\n\n\n\n\nattach\n()\n\u00b6\n\n\nUn-hides the entire widget by re-attaching the React component from the DOM.\n\n\n\n\nUsage\n\n\n// Button will now appear\n\n\ncrate\n.\nattach\n()\n\n\n\n\n\n\n\n\n\ndetach\n()\n\u00b6\n\n\nHides the entire widget by detaching the React component from the DOM.\n\n\n\n\nUsage\n\n\n// Button will now disappear\n\n\ncrate\n.\ndetach\n()\n\n\n\n\n\n\n\n\n\nremove\n()\n\u00b6\n\n\nPermanently removes the entire widget by detaching the React component from the DOM.\n\n\n\n\nUsage\n\n\n// Button will disappear\n\n\ncrate\n.\nremove\n()",
+            "text": "API\n\u00b6\n\n\nOnce you've initialised a new constructor, you can manipulate it using the following methods\n\n\ntoggle\n(\nopen\n?:\n \nboolean\n)\n\u00b6\n\n\nToggles the message view, with an optional param to set it.\n\n\n\n\nUsage\n\n\n// Toggle\n\n\ncrate\n.\ntoggle\n()\n\n\n\n// Toggle open\n\n\ncrate\n.\ntoggle\n(\ntrue\n)\n\n\n\n// Toggle closed\n\n\ncrate\n.\ntoggle\n(\nfalse\n)\n\n\n\n\n\n\n\n\n\nshow\n()\n\u00b6\n\n\nShows the message view. Alias for \ntoggle(true)\n\n\n\n\nUsage\n\n\n// Toggle open\n\n\ncrate\n.\nshow\n()\n\n\n\n\n\n\n\n\n\nhide\n()\n\u00b6\n\n\nHides the message view. Alias for \ntoggle(false)\n\n\n\n\nUsage\n\n\n// Toggle open\n\n\ncrate\n.\nshow\n()\n\n\n\n\n\n\n\n\n\nattach\n()\n\u00b6\n\n\nUn-hides the entire widget by re-attaching the React component from the DOM.\n\n\n\n\nUsage\n\n\n// Button will now appear\n\n\ncrate\n.\nattach\n()\n\n\n\n\n\n\n\n\n\ndetach\n()\n\u00b6\n\n\nHides the entire widget by detaching the React component from the DOM.\n\n\n\n\nUsage\n\n\n// Button will now disappear\n\n\ncrate\n.\ndetach\n()\n\n\n\n\n\n\n\n\n\nremove\n()\n\u00b6\n\n\nPermanently removes the entire widget by detaching the React component from the DOM.\n\n\n\n\nUsage\n\n\n// Button will disappear\n\n\ncrate\n.\nremove\n()",
             "title": "API"
         },
         {
@@ -37,7 +37,7 @@
         },
         {
             "location": "/api/#show",
-            "text": "Shows the message view. Alias for  toggle(false)   Usage  // Toggle open  crate . show ()",
+            "text": "Shows the message view. Alias for  toggle(true)   Usage  // Toggle open  crate . show ()",
             "title": "show()"
         },
         {
