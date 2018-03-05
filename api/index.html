@@ -293,20 +293,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#attach" title="attach()" class="md-nav__link">
-    attach()
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#detach" title="detach()" class="md-nav__link">
-    detach()
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#remove" title="remove()" class="md-nav__link">
     remove()
   </a>
@@ -376,20 +362,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#attach" title="attach()" class="md-nav__link">
-    attach()
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#detach" title="detach()" class="md-nav__link">
-    detach()
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#remove" title="remove()" class="md-nav__link">
     remove()
   </a>
@@ -432,41 +404,21 @@
 </div>
 <hr />
 <h2 id="show"><code class="codehilite"><span class="nx">show</span><span class="p">()</span></code><a class="headerlink" href="#show" title="Permanent link">&para;</a></h2>
-<p>Shows the message view. Alias for <code class="codehilite">toggle(true)</code></p>
+<p>Un-hides the entire widget by re-attaching the React component from the DOM.</p>
 <div class="admonition example">
 <p class="admonition-title">Usage</p>
-<div class="codehilite"><pre><span></span><span class="c1">// Toggle open</span>
+<div class="codehilite"><pre><span></span><span class="c1">// Button will now appear</span>
 <span class="nx">crate</span><span class="p">.</span><span class="nx">show</span><span class="p">()</span>
 </pre></div>
 
 </div>
 <hr />
 <h2 id="hide"><code class="codehilite"><span class="nx">hide</span><span class="p">()</span></code><a class="headerlink" href="#hide" title="Permanent link">&para;</a></h2>
-<p>Hides the message view. Alias for <code class="codehilite">toggle(false)</code></p>
-<div class="admonition example">
-<p class="admonition-title">Usage</p>
-<div class="codehilite"><pre><span></span><span class="c1">// Toggle open</span>
-<span class="nx">crate</span><span class="p">.</span><span class="nx">show</span><span class="p">()</span>
-</pre></div>
-
-</div>
-<hr />
-<h2 id="attach"><code class="codehilite"><span class="nx">attach</span><span class="p">()</span></code><a class="headerlink" href="#attach" title="Permanent link">&para;</a></h2>
-<p>Un-hides the entire widget by re-attaching the React component from the DOM.</p>
-<div class="admonition example">
-<p class="admonition-title">Usage</p>
-<div class="codehilite"><pre><span></span><span class="c1">// Button will now appear</span>
-<span class="nx">crate</span><span class="p">.</span><span class="nx">attach</span><span class="p">()</span>
-</pre></div>
-
-</div>
-<hr />
-<h2 id="detach"><code class="codehilite"><span class="nx">detach</span><span class="p">()</span></code><a class="headerlink" href="#detach" title="Permanent link">&para;</a></h2>
 <p>Hides the entire widget by detaching the React component from the DOM.</p>
 <div class="admonition example">
 <p class="admonition-title">Usage</p>
 <div class="codehilite"><pre><span></span><span class="c1">// Button will now disappear</span>
-<span class="nx">crate</span><span class="p">.</span><span class="nx">detach</span><span class="p">()</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">hide</span><span class="p">()</span>
 </pre></div>
 
 </div>
