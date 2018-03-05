@@ -23,7 +23,7 @@ Toggles the message view, with an optional param to set it.
 
 ## `#!js show()`
 
-Shows the message view. Alias for `toggle(false)`
+Shows the message view. Alias for `toggle(true)`
 
 !!! example "Usage"
 
