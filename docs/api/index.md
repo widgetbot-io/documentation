@@ -41,7 +41,7 @@ Hides the message view. Alias for `toggle(false)`
 !!! example "Usage"
 
     ```js
-    // Toggle open
+    // Toggle closed
     crate.show()
     ```
 
