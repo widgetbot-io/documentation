@@ -23,12 +23,12 @@ Toggles the message view, with an optional param to set it.
 
 ## `#!js show()`
 
-Shows the message view. Alias for `toggle(true)`
+Un-hides the entire widget by re-attaching the React component from the DOM.
 
 !!! example "Usage"
 
     ```js
-    // Toggle open
+    // Button will now appear
     crate.show()
     ```
 
@@ -36,39 +36,13 @@ Shows the message view. Alias for `toggle(true)`
 
 ## `#!js hide()`
 
-Hides the message view. Alias for `toggle(false)`
-
-!!! example "Usage"
-
-    ```js
-    // Toggle closed
-    crate.show()
-    ```
-
----
-
-## `#!js attach()`
-
-Un-hides the entire widget by re-attaching the React component from the DOM.
-
-!!! example "Usage"
-
-    ```js
-    // Button will now appear
-    crate.attach()
-    ```
-
----
-
-## `#!js detach()`
-
 Hides the entire widget by detaching the React component from the DOM.
 
 !!! example "Usage"
 
     ```js
     // Button will now disappear
-    crate.detach()
+    crate.hide()
     ```
 
 ---
