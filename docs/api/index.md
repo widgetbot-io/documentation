@@ -67,8 +67,8 @@ Hides the entire widget by detaching the React component from the DOM.
 !!! example "Usage"
 
     ```js
-    // Button will now appear
-    crate.attach()
+    // Button will now disappear
+    crate.detach()
     ```
 
 ---
