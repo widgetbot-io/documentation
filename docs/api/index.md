@@ -46,6 +46,27 @@ Pulses the button with with an optional param to set it.
     <button class="try-it" onClick="crate.pulse(true)">pulse(true)</button>
     <button class="try-it" onClick="crate.pulse(false)">pulse(false)</button>
 
+### `#!js message(content: string, timeout?: number, avatar?: url)`
+
+Programmatically displays a toast message. Supports discords markdown
+
+!!! example "Usage"
+
+    ```js
+    // Hello world
+    crate.message(`**hello** world`)
+
+    // Display for 2 seconds
+    crate.message('`2 seconds`', 2000)
+
+    // Custom avatar
+    crate.message('samdd', false, 'https://cdn.samdd.me/samdd-logo/variations/logo.png')
+    ```
+
+    <b>Try it:</b> <button class="try-it" onClick="crate.message('**hello** world')">hello world</button>
+    <button class="try-it" onClick="crate.message('\`2 seconds\`', 2000)">2 seconds</button>
+    <button class="try-it" onClick="crate.message('samdd', false, 'https://cdn.samdd.me/samdd-logo/variations/logo.png')">custom avatar</button>
+
 ### `#!js config(new: Config)`
 
 Updates the configuration for crate in real time. [Available options](/options/)
@@ -70,8 +91,8 @@ Updates the configuration for crate in real time. [Available options](/options/)
     })
     ```
 
-    <b>Try it:</b> <button class="try-it" onClick="crate.config({colors: {...crate.state.config.colors,toggle: '#'+Math.random().toString(16).slice(2, 8)}})">example 1</button>
-    <button class="try-it" onClick="crate.config({position:{x:'left'===crate.state.config.position.x?'right':'left',y:crate.state.config.position.y}});">example 2</button>
+    <b>Try it:</b> <button class="try-it" onClick="crate.config({colors: {...crate.state.config.colors,toggle: '#'+Math.random().toString(16).slice(2, 8)}})">change colors</button>
+    <button class="try-it" onClick="crate.config({position:{x:'left'===crate.state.config.position.x?'right':'left',y:crate.state.config.position.y}});">switch position</button>
 
 ---
 
