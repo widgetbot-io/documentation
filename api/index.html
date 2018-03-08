@@ -272,30 +272,70 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#interaction" title="Interaction" class="md-nav__link">
+    Interaction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#toggleopen-boolean" title="toggle(open?: boolean)" class="md-nav__link">
     toggle(open?: boolean)
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#pulsepulsing-boolean" title="pulse(pulsing?: boolean)" class="md-nav__link">
+    pulse(pulsing?: boolean)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confignew-config" title="config(new: Config)" class="md-nav__link">
+    config(new: Config)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#visibility" title="Visibility" class="md-nav__link">
+    Visibility
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#show" title="show()" class="md-nav__link">
     show()
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#hide" title="hide()" class="md-nav__link">
     hide()
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#remove" title="remove()" class="md-nav__link">
     remove()
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -341,30 +381,70 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#interaction" title="Interaction" class="md-nav__link">
+    Interaction
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#toggleopen-boolean" title="toggle(open?: boolean)" class="md-nav__link">
     toggle(open?: boolean)
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#pulsepulsing-boolean" title="pulse(pulsing?: boolean)" class="md-nav__link">
+    pulse(pulsing?: boolean)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confignew-config" title="config(new: Config)" class="md-nav__link">
+    config(new: Config)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#visibility" title="Visibility" class="md-nav__link">
+    Visibility
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#show" title="show()" class="md-nav__link">
     show()
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#hide" title="hide()" class="md-nav__link">
     hide()
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#remove" title="remove()" class="md-nav__link">
     remove()
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -387,7 +467,8 @@
                 
                 <h1 id="api">API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h1>
 <p>Once you've initialised a new constructor, you can manipulate it using the following methods</p>
-<h2 id="toggleopen-boolean"><code class="codehilite"><span class="nx">toggle</span><span class="p">(</span><span class="nx">open</span><span class="o">?:</span> <span class="kr">boolean</span><span class="p">)</span></code><a class="headerlink" href="#toggleopen-boolean" title="Permanent link">&para;</a></h2>
+<h2 id="interaction">Interaction<a class="headerlink" href="#interaction" title="Permanent link">&para;</a></h2>
+<h3 id="toggleopen-boolean"><code class="codehilite"><span class="nx">toggle</span><span class="p">(</span><span class="nx">open</span><span class="o">?:</span> <span class="kr">boolean</span><span class="p">)</span></code><a class="headerlink" href="#toggleopen-boolean" title="Permanent link">&para;</a></h3>
 <p>Toggles the message view, with an optional param to set it.</p>
 <div class="admonition example">
 <p class="admonition-title">Usage</p>
@@ -401,9 +482,55 @@
 <span class="nx">crate</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span>
 </pre></div>
 
+<p><b>Try it:</b> <button class="try-it" onClick="crate.toggle()">toggle()</button>
+<button class="try-it" onClick="crate.toggle(true)">toggle(true)</button>
+<button class="try-it" onClick="crate.toggle(false)">toggle(false)</button></p>
+</div>
+<h3 id="pulsepulsing-boolean"><code class="codehilite"><span class="nx">pulse</span><span class="p">(</span><span class="nx">pulsing</span><span class="o">?:</span> <span class="kr">boolean</span><span class="p">)</span></code><a class="headerlink" href="#pulsepulsing-boolean" title="Permanent link">&para;</a></h3>
+<p>Pulses the button with with an optional param to set it.</p>
+<div class="admonition example">
+<p class="admonition-title">Usage</p>
+<div class="codehilite"><pre><span></span><span class="c1">// Toggle pulse</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">pulse</span><span class="p">()</span>
+
+<span class="c1">// Start pulsing</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">pulse</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span>
+
+<span class="c1">// Stop pulsing</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">pulse</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span>
+</pre></div>
+
+<p><b>Try it:</b> <button class="try-it" onClick="crate.pulse()">pulse()</button>
+<button class="try-it" onClick="crate.pulse(true)">pulse(true)</button>
+<button class="try-it" onClick="crate.pulse(false)">pulse(false)</button></p>
+</div>
+<h3 id="confignew-config"><code class="codehilite"><span class="nx">config</span><span class="p">(</span><span class="k">new</span><span class="o">:</span> <span class="nx">Config</span><span class="p">)</span></code><a class="headerlink" href="#confignew-config" title="Permanent link">&para;</a></h3>
+<p>Updates the configuration for crate in real time. <a href="../options/">Available options</a></p>
+<div class="admonition example">
+<p class="admonition-title">Usage</p>
+<div class="codehilite"><pre><span></span><span class="c1">// Change toggle to a random color</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">config</span><span class="p">({</span>
+  <span class="nx">colors</span><span class="o">:</span> <span class="p">{</span>
+    <span class="p">...</span><span class="nx">crate</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">colors</span><span class="p">,</span>
+    <span class="nx">toggle</span><span class="o">:</span> <span class="s1">&#39;#&#39;</span><span class="o">+</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">().</span><span class="nx">toString</span><span class="p">(</span><span class="mi">16</span><span class="p">).</span><span class="nx">slice</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">})</span>
+
+<span class="c1">// Switch position</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">config</span><span class="p">({</span>
+  <span class="nx">position</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">x</span><span class="o">:</span> <span class="nx">crate</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">position</span><span class="p">.</span><span class="nx">x</span> <span class="o">===</span> <span class="s1">&#39;left&#39;</span> <span class="o">?</span> <span class="s1">&#39;right&#39;</span> <span class="o">:</span> <span class="s1">&#39;left&#39;</span><span class="p">,</span>
+    <span class="nx">y</span><span class="o">:</span> <span class="nx">crate</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">config</span><span class="p">.</span><span class="nx">position</span><span class="p">.</span><span class="nx">y</span><span class="p">,</span>
+  <span class="p">}</span>
+<span class="p">})</span>
+</pre></div>
+
+<p><b>Try it:</b> <button class="try-it" onClick="crate.config({colors: {...crate.state.config.colors,toggle: '#'+Math.random().toString(16).slice(2, 8)}})">example 1</button>
+<button class="try-it" onClick="crate.config({position:{x:'left'===crate.state.config.position.x?'right':'left',y:crate.state.config.position.y}});">example 2</button></p>
 </div>
 <hr />
-<h2 id="show"><code class="codehilite"><span class="nx">show</span><span class="p">()</span></code><a class="headerlink" href="#show" title="Permanent link">&para;</a></h2>
+<h2 id="visibility">Visibility<a class="headerlink" href="#visibility" title="Permanent link">&para;</a></h2>
+<h3 id="show"><code class="codehilite"><span class="nx">show</span><span class="p">()</span></code><a class="headerlink" href="#show" title="Permanent link">&para;</a></h3>
 <p>Un-hides the entire widget by re-attaching the React component from the DOM.</p>
 <div class="admonition example">
 <p class="admonition-title">Usage</p>
@@ -411,9 +538,9 @@
 <span class="nx">crate</span><span class="p">.</span><span class="nx">show</span><span class="p">()</span>
 </pre></div>
 
+<p><b>Try it:</b> <button class="try-it" onClick="crate.show()">show()</button></p>
 </div>
-<hr />
-<h2 id="hide"><code class="codehilite"><span class="nx">hide</span><span class="p">()</span></code><a class="headerlink" href="#hide" title="Permanent link">&para;</a></h2>
+<h3 id="hide"><code class="codehilite"><span class="nx">hide</span><span class="p">()</span></code><a class="headerlink" href="#hide" title="Permanent link">&para;</a></h3>
 <p>Hides the entire widget by detaching the React component from the DOM.</p>
 <div class="admonition example">
 <p class="admonition-title">Usage</p>
@@ -421,9 +548,9 @@
 <span class="nx">crate</span><span class="p">.</span><span class="nx">hide</span><span class="p">()</span>
 </pre></div>
 
+<p><b>Try it:</b> <button class="try-it" onClick="crate.hide()">hide()</button></p>
 </div>
-<hr />
-<h2 id="remove"><code class="codehilite"><span class="nx">remove</span><span class="p">()</span></code><a class="headerlink" href="#remove" title="Permanent link">&para;</a></h2>
+<h3 id="remove"><code class="codehilite"><span class="nx">remove</span><span class="p">()</span></code><a class="headerlink" href="#remove" title="Permanent link">&para;</a></h3>
 <p>Permanently removes the entire widget by detaching the React component from the DOM.</p>
 <div class="admonition example">
 <p class="admonition-title">Usage</p>
@@ -431,6 +558,7 @@
 <span class="nx">crate</span><span class="p">.</span><span class="nx">remove</span><span class="p">()</span>
 </pre></div>
 
+<p><b>Try it:</b> <button class="try-it" onClick="crate.remove()">remove()</button></p>
 </div>
 <hr />
                 
