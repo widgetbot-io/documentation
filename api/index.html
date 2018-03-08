@@ -294,6 +294,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#messagecontent-string-timeout-number-avatar-url" title="message(content: string, timeout?: number, avatar?: url)" class="md-nav__link">
+    message(content: string, timeout?: number, avatar?: url)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#confignew-config" title="config(new: Config)" class="md-nav__link">
     config(new: Config)
   </a>
@@ -403,6 +410,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#messagecontent-string-timeout-number-avatar-url" title="message(content: string, timeout?: number, avatar?: url)" class="md-nav__link">
+    message(content: string, timeout?: number, avatar?: url)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#confignew-config" title="config(new: Config)" class="md-nav__link">
     config(new: Config)
   </a>
@@ -504,6 +518,24 @@
 <button class="try-it" onClick="crate.pulse(true)">pulse(true)</button>
 <button class="try-it" onClick="crate.pulse(false)">pulse(false)</button></p>
 </div>
+<h3 id="messagecontent-string-timeout-number-avatar-url"><code class="codehilite"><span class="nx">message</span><span class="p">(</span><span class="nx">content</span><span class="o">:</span> <span class="nx">string</span><span class="p">,</span> <span class="nx">timeout</span><span class="o">?:</span> <span class="nx">number</span><span class="p">,</span> <span class="nx">avatar</span><span class="o">?:</span> <span class="nx">url</span><span class="p">)</span></code><a class="headerlink" href="#messagecontent-string-timeout-number-avatar-url" title="Permanent link">&para;</a></h3>
+<p>Programmatically displays a toast message. Supports discords markdown</p>
+<div class="admonition example">
+<p class="admonition-title">Usage</p>
+<div class="codehilite"><pre><span></span><span class="c1">// Hello world</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">message</span><span class="p">(</span><span class="sb">`**hello** world`</span><span class="p">)</span>
+
+<span class="c1">// Display for 2 seconds</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">message</span><span class="p">(</span><span class="s1">&#39;`2 seconds`&#39;</span><span class="p">,</span> <span class="mi">2000</span><span class="p">)</span>
+
+<span class="c1">// Custom avatar</span>
+<span class="nx">crate</span><span class="p">.</span><span class="nx">message</span><span class="p">(</span><span class="s1">&#39;samdd&#39;</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="s1">&#39;https://cdn.samdd.me/samdd-logo/variations/logo.png&#39;</span><span class="p">)</span>
+</pre></div>
+
+<p><b>Try it:</b> <button class="try-it" onClick="crate.message('**hello** world')">hello world</button>
+<button class="try-it" onClick="crate.message('\`2 seconds\`', 2000)">2 seconds</button>
+<button class="try-it" onClick="crate.message('samdd', false, 'https://cdn.samdd.me/samdd-logo/variations/logo.png')">custom avatar</button></p>
+</div>
 <h3 id="confignew-config"><code class="codehilite"><span class="nx">config</span><span class="p">(</span><span class="k">new</span><span class="o">:</span> <span class="nx">Config</span><span class="p">)</span></code><a class="headerlink" href="#confignew-config" title="Permanent link">&para;</a></h3>
 <p>Updates the configuration for crate in real time. <a href="../options/">Available options</a></p>
 <div class="admonition example">
@@ -525,8 +557,8 @@
 <span class="p">})</span>
 </pre></div>
 
-<p><b>Try it:</b> <button class="try-it" onClick="crate.config({colors: {...crate.state.config.colors,toggle: '#'+Math.random().toString(16).slice(2, 8)}})">example 1</button>
-<button class="try-it" onClick="crate.config({position:{x:'left'===crate.state.config.position.x?'right':'left',y:crate.state.config.position.y}});">example 2</button></p>
+<p><b>Try it:</b> <button class="try-it" onClick="crate.config({colors: {...crate.state.config.colors,toggle: '#'+Math.random().toString(16).slice(2, 8)}})">change colors</button>
+<button class="try-it" onClick="crate.config({position:{x:'left'===crate.state.config.position.x?'right':'left',y:crate.state.config.position.y}});">switch position</button></p>
 </div>
 <hr />
 <h2 id="visibility">Visibility<a class="headerlink" href="#visibility" title="Permanent link">&para;</a></h2>
