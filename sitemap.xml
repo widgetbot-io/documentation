@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-03-08</lastmod>
+     <lastmod>2018-03-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,23 +12,59 @@
     
     <url>
      <loc>/options/</loc>
-     <lastmod>2018-03-08</lastmod>
+     <lastmod>2018-03-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
      <loc>/api/</loc>
-     <lastmod>2018-03-08</lastmod>
+     <lastmod>2018-03-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>/api/listeners/</loc>
+     <lastmod>2018-03-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/definitions/config.d.ts/</loc>
+     <lastmod>2018-03-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/definitions/modal.d.ts/</loc>
+     <lastmod>2018-03-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/definitions/notifications.d.ts/</loc>
+     <lastmod>2018-03-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/definitions/view.d.ts/</loc>
+     <lastmod>2018-03-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
     <url>
      <loc>/examples/</loc>
-     <lastmod>2018-03-08</lastmod>
+     <lastmod>2018-03-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
