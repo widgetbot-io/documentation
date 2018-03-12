@@ -23,7 +23,14 @@ theme:
 pages:
   - Introduction: 'index.md'
   - Options: 'options/index.md'
-  - API: 'api/index.md'
+  - API:
+    - Methods: 'api/index.md'
+    - Listeners: 'api/listeners.md'
+  - Definitions:
+    - config.d.ts: 'definitions/config.d.ts.md'
+    - modal.d.ts: 'definitions/modal.d.ts.md'
+    - notifications.d.ts: 'definitions/notifications.d.ts.md'
+    - view.d.ts: 'definitions/view.d.ts.md'
   - Examples: 'examples/index.md'
 
   # Extensions

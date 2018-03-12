@@ -1,7 +1,8 @@
 ## Options
 
 ???+ info "Typescript typings"
-    ```typescript
+
+    ```ts
     /**
      * WidgetBot widget options
      */
@@ -14,6 +15,7 @@
       secondary?: string
     }
     username: string              // Use a specific username for the guest chatter
+
 
     /**
      * Aesthetic options
@@ -34,6 +36,11 @@
       y: 'top' | 'bottom'
     }
     contained: boolean            // Display modals in iframe or in the window
+    mobile?: {
+      maxWidth?: number           // The screen resolution at which the mobile version should be used
+      maxHeight?: number          // The screen resolution at which the mobile version should be used
+    }
+
 
     /**
      * Notifications
@@ -50,8 +57,11 @@
       }
     }
 
+
     /**
      * General options
      */
     delay?: boolean               // Only load the widget once the button has been clicked
+    debug?: boolean               // Debug crate
+    disable?: ('toggle' | 'toasts' | 'embed' | 'modal')[] // Disable components
     ```
