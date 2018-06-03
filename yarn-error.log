@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\tools\ruby24\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\samde\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\ADB;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\SimpleAuthority;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows ADK\Windows Performance Toolkit\;C:\Users\samde\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\erl9.2\bin;C:\Program Files (x86)\Elixir\bin;C:\Program Files (x86)\Elm Platform\0.18\bin;D:\Data\Drive\Command-Line-Tools;D:\Data\Drive\Command-Line-Tools\EXEs;C:\Program Files (x86)\Windows ADK\Assessment and Deployment Kit\Windows Preinstallation Environment;C:\Users\samde\appdata\local\programs\python\Python36;C:\Users\samde\appdata\local\programs\python\Python36\Scripts;D:\Data\php-7.1.8-Win32-VC14-x64;C:\Users\samde\node_modules\.bin;C:\Users\samde\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Heroku\bin;C:\Program Files\MongoDB\Server\3.4\bin\;C:\Program Files (x86)\Corsair\Corsair Utility Engine;C:\Program Files\Docker Toolbox;C:\Users\samde\AppData\Roaming\npm;C:\Users\samde\AppData\Local\now-cli;C:\Program Files\Microsoft VS Code Insiders\bin;C:\Program Files (x86)\Oni;C:\Users\samde\AppData\Local\Programs\Fiddler;C:\Users\samde\AppData\Local\Yarn\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\samde\AppData\Local\hyper\app-2.1.0-canary1\resources\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.2.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "@widgetbot/documentation",
+    "version": "1.0.0",
+    "repository": "https://github.com/widgetbot-io/documentation.git",
+    "author": "samdd <sam@samdd.me>",
+    "license": "MIT",
+    "scripts": {
+      "start": "mkdocs serve"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c mkdocs serve
+  Directory: D:\Data\Drive\Github\widgetbot2\docs
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:159:13)
+      at maybeClose (internal/child_process.js:943:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)

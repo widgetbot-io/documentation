@@ -1,40 +1,100 @@
 <p align="center">
-	<a href="https://crate.widgetbot.io/?ref=logo">
-		<img src="./assets/images/crate.png" width="100">
-	</a>
-  <h3 align="center">Crate</h3>
+	<widgetbot
+    server="299881420891881473"
+    channel="355719584830980096"
+    id="embed"
+    height="300"
+    width="500"
+  />
+	<script src="https://unpkg.com/@widgetbot/html-embed"></script>
   <p align="center">
-    Popup Discord widgets for your website.
+    Discord chat widgets for your website.
   </p>
 </p>
 <p align="center">
-	<b>
-		<a href="https://crate.widgetbot.io/?ref=demo">
-			Demo
-		</a>&nbsp;|
-		<a href="https://trello.com/b/X9ZFUHmv/crate">
-			Trello
-    </a>&nbsp;|
-		<a href="https://beta.widgetbot.io/demo/">
-			Discord
-		</a>
-	</b>
-	<br><br>
-  <a href="https://crate.widgetbot.io/v2">
-		<img src="https://img.shields.io/badge/Version-2.0.0-7289DA.svg">
-	</a>
-	<a href="https://discord.gg/25vFWfb">
-		<img src="https://img.shields.io/discord/299881420891881473.svg?colorB=7289DA&style=flat">
-	</a>
+  <a href="https://discord.gg/25vFWfb">
+    <img src="https://img.shields.io/discord/299881420891881473.svg?colorB=7289DA&style=flat">
+  </a>
 </p>
 <hr>
 
-## What is it?
-Crate is a JS library that allows you to place Discord buttons on your website. It features
+!!! info "Getting started"
 
-- Real-time messages toasts on your website
-- Unread message indicator
-- Highly configurable options
-- Extensive API
+    WidgetBot provides a rich client-sides wrappers around the widgets. Each wrapper provides access to the `embed-api`, allowing your website to programatically:
 
-![Demo](https://i.imgur.com/GjHSu16.gif)
+    - Listen for message events
+    - Send messages through WidgetBot
+    - Sign in with a specific username
+
+    *and more*
+
+## Integrations
+
+!!! example "Crate (recommended)"
+
+    `@widgetbot/crate` provides a little chat button in the corner of your website. It shows message notifications from your server and provides an extensive API.
+
+    ```html
+    <script src="https://unpkg.com/@widgetbot/crate@^3" async>
+      const crate = new Crate({
+        server: '299881420891881473',
+        channel: '355719584830980096'
+      })
+
+      crate.notify('Test notification')
+      crate.on('signIn', data => {
+        console.log(`Guest signed in as ${data.name}`)
+        embed.emit('sendMessage', 'Hello world')
+      })
+    </script>
+    ```
+
+---
+
+!!! example "html-embed"
+
+    `@widgetbot/html-embed` is a lightweight iframe wrapper, which provides access to the `embed-api`. It can be used with any framework and has no dependencies.
+
+    ```html
+    <widgetbot
+      server="299881420891881473"
+      channel="355719584830980096"
+      id="embed"
+    ></widgetbot>
+    <script src="https://unpkg.com/@widgetbot/html-embed"></script>
+
+    <script>
+      const embed = document.getElementById('embed')
+
+      embed.on('signIn', data => {
+        console.log(`Guest signed in as ${data.name}`)
+        embed.emit('sendMessage', 'Hello world')
+      })
+    </script>
+    ```
+
+---
+
+!!! example "react-embed"
+
+    `@widgetbot/react-embed` provides access to the embed as a React component. It provides syntactical sugar for the `embed-api`, with 100% type safety (using typescript).
+
+    ```ts
+    import * as React from 'react'
+    import WidgetBot from '@widgetbot/react-embed'
+
+    const App = () => (
+      <WidgetBot
+        server="299881420891881473"
+        channel="355719584830980096"
+        onAPI={(api) => {
+          api.on('signIn', user => {
+            console.log(`Guest signed in as ${user.name}`, user)
+            api.emit('sendMessage', 'Hello world')
+          })
+        }}
+      />
+    )
+
+    export default App
+    ```

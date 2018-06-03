@@ -1,14 +1,14 @@
-site_name: WidgetBot Crate
+site_name: WidgetBot.io
 
 # Repository
-repo_name: 'widgetbot-io/crate-docs'
-repo_url: 'https://github.com/widgetbot-io/crate-docs'
-edit_uri: 'https://github.com/widgetbot-io/crate-docs/edit/master/docs/'
+repo_name: 'widgetbot-io/embed'
+repo_url: 'https://github.com/widgetbot-io/embed'
+edit_uri: 'https://github.com/widgetbot-io/documentation/edit/master/docs/'
 
 # Meta
-site_description: 'Popup Discord widgets for your website.'
+site_description: 'Discord chat widgets for your website.'
 site_author: 'WidgetBot'
-copyright: 'Copyright &copy; 2018 WidgetBot'
+copyright: 'Copyright &copy; 2018 Sam Denty'
 
 # Configuration
 theme:
@@ -21,17 +21,23 @@ theme:
 
 # Pages
 pages:
-  - Introduction: 'index.md'
-  - Options: 'options/index.md'
-  - API:
-    - Methods: 'api/index.md'
-    - Listeners: 'api/listeners.md'
-  - Definitions:
-    - config.d.ts: 'definitions/config.d.ts.md'
-    - modal.d.ts: 'definitions/modal.d.ts.md'
-    - notifications.d.ts: 'definitions/notifications.d.ts.md'
-    - view.d.ts: 'definitions/view.d.ts.md'
-  - Examples: 'examples/index.md'
+  - Welcome: 'index.md'
+  - crate:
+    - Intro: 'crate/index.md'
+    - Options: 'crate/options/index.md'
+    - API:
+      - Methods: 'crate/api/index.md'
+      - Listeners: 'crate/api/listeners.md'
+    - Definitions:
+      - config.d.ts: 'crate/definitions/config.d.ts.md'
+      - modal.d.ts: 'crate/definitions/modal.d.ts.md'
+      - notifications.d.ts: 'crate/definitions/notifications.d.ts.md'
+      - view.d.ts: 'crate/definitions/view.d.ts.md'
+    - Examples: 'crate/examples/index.md'
+  - html-embed:
+    - Intro: 'html-embed/index.md'
+  - react-embed:
+    - Intro: 'react-embed/index.md'
 
   # Extensions
 markdown_extensions:
@@ -62,6 +68,7 @@ extra_javascript:
   - 'assets/js/crate.js'
 extra_css:
   - 'assets/css/main.css'
+  - 'assets/css/dark.css'
 
 # Analytics
 # google_analytics:

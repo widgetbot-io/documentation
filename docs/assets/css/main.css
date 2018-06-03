@@ -38,3 +38,19 @@
 .try-it:hover {
   background-color: rgba(101, 69, 156, 0.8)
 }
+
+[data-md-color-primary=deep-purple] .md-typeset a {
+  color: #697EC7;
+}
+
+[data-md-color-primary=deep-purple] .md-nav__link--active, [data-md-color-primary=deep-purple] .md-nav__link:active {
+  color: #a8bcff !important;
+}
+
+[data-md-color-accent=deep-purple] .md-nav__link:focus, [data-md-color-accent=deep-purple] .md-nav__link:hover, [data-md-color-accent=deep-purple] .md-typeset .footnote li:hover .footnote-backref:hover, [data-md-color-accent=deep-purple] .md-typeset .footnote li:target .footnote-backref, [data-md-color-accent=deep-purple] .md-typeset .md-clipboard:active:before, [data-md-color-accent=deep-purple] .md-typeset .md-clipboard:hover:before, [data-md-color-accent=deep-purple] .md-typeset [id] .headerlink:focus, [data-md-color-accent=deep-purple] .md-typeset [id]:hover .headerlink:hover, [data-md-color-accent=deep-purple] .md-typeset [id]:target .headerlink {
+  color: #8da0dc;
+}
+
+[data-md-color-primary=deep-purple] .md-header, [data-md-color-primary=deep-purple] .md-hero {
+  background-color: #5a6179;
+}
