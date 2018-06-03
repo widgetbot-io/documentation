@@ -25,14 +25,7 @@ pages:
   - crate:
     - Intro: 'crate/index.md'
     - Options: 'crate/options/index.md'
-    - API:
-      - Methods: 'crate/api/index.md'
-      - Listeners: 'crate/api/listeners.md'
-    - Definitions:
-      - config.d.ts: 'crate/definitions/config.d.ts.md'
-      - modal.d.ts: 'crate/definitions/modal.d.ts.md'
-      - notifications.d.ts: 'crate/definitions/notifications.d.ts.md'
-      - view.d.ts: 'crate/definitions/view.d.ts.md'
+    - API: 'crate/api.md'
     - Examples: 'crate/examples/index.md'
   - html-embed:
     - Intro: 'html-embed/index.md'
