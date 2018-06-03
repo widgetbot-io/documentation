@@ -56,23 +56,24 @@ Once you've initialised a new constructor, you can manipulate it using the follo
     // Hello world
     crate.notify(`**hello** world`)
 
-    // Display for 2 seconds
+    // Display for 2 seconds + custom avatar
     crate.notify({
       content: '`2 seconds`',
-      timeout: 2000
-    })
-
-    // Custom avatar
-    crate.notify({
-      content: 'samdd',
-      timeout: false,
+      timeout: 2000,
       avatar: 'https://cdn.samdd.me/samdd-logo/variations/logo.png'
     })
+
+    // Programmatically hide notification
+    const notification = crate.notify({
+      content: 'Test',
+      timeout: false
+    })
+    /* business logic */
+    notification.hide()
     ```
 
     <b>Try it:</b> <button class="try-it" onClick="crate.notify('**hello** world')">hello world</button>
-    <button class="try-it" onClick="crate.notify({content:'\`2 seconds\`',timeout:2000})">2 seconds</button>
-    <button class="try-it" onClick="crate.notify({content:'samdd',timeout:false,avatar:'https://cdn.samdd.me/samdd-logo/variations/logo.png'})">custom avatar</button>
+    <button class="try-it" onClick="crate.notify({content:'\`2 seconds\`',timeout:2000, avatar:'https://cdn.samdd.me/samdd-logo/variations/logo.png'})">2 seconds + avatar</button>
 
 ---
 
