@@ -35,7 +35,7 @@
     `@widgetbot/crate` provides a little chat button in the corner of your website. It shows message notifications from your server and provides an extensive API.
 
     ```html
-    <script src="https://unpkg.com/@widgetbot/crate@^3" async>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async>
       const crate = new Crate({
         server: '299881420891881473',
         channel: '355719584830980096'
@@ -44,7 +44,7 @@
       crate.notify('Test notification')
       crate.on('signIn', data => {
         console.log(`Guest signed in as ${data.name}`)
-        embed.emit('sendMessage', 'Hello world')
+        crate.emit('sendMessage', 'Hello world')
       })
     </script>
     ```
@@ -61,7 +61,7 @@
       channel="355719584830980096"
       id="embed"
     ></widgetbot>
-    <script src="https://unpkg.com/@widgetbot/html-embed"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 
     <script>
       const embed = document.getElementById('embed')
