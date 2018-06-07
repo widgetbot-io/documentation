@@ -28,7 +28,7 @@ new Crate({ server: '299881420891881473', location: ['top', 'left'] })
       // The glyph to display on the button
       glyph?: [url, size]
       // Custom CSS to be injected into the Shadow root
-      css: string
+      css?: string
 
       // Message notifications
       notifications?: boolean
