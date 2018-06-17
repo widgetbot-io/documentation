@@ -32,10 +32,12 @@ pages:
   - react-embed:
     - Intro: 'react-embed/index.md'
 
-  # Extensions
+# Extensions
 markdown_extensions:
   - toc:
       permalink: true
+  - markdown_include.include:
+      base_path: docs
   - meta
   - footnotes
   - codehilite

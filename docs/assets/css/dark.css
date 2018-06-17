@@ -141,6 +141,14 @@ article preview text color
     -0.29412em 0 0 hsla(0, 0%, 100%, 0.1);
 }
 
+.md-typeset a code {
+  color: #94acff !important;
+}
+
+.md-typeset a:hover code {
+  text-decoration: underline;
+}
+
 /*
 /////////////////
 // Code Blocks //
