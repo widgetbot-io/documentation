@@ -2,4 +2,4 @@
 
 ---
 
-{!html-embed/demo.md!}
+{!embed/html-embed/demo.md!}

@@ -2,4 +2,4 @@
 
 ---
 
-{!crate/demo.md!}
+{!embed/crate/demo.md!}

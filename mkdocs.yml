@@ -18,22 +18,26 @@ theme:
   palette:
     primary: 'deep purple'
     accent: 'deep purple'
+  feature:
+    tabs: true
 
 # Pages
 pages:
-  - Welcome: 'index.md'
-  - crate:
-    - Intro: 'crate/index.md'
-    - Options: 'crate/options/index.md'
-    - API: 'crate/api.md'
-    - Examples: 'crate/examples/index.md'
-  - html-embed:
-    - Intro: 'html-embed/index.md'
-    - Attributes: 'html-embed/attributes.md'
-    - API: 'html-embed/api.md'
-  - react-embed:
-    - Intro: 'react-embed/index.md'
-    - Props: 'react-embed/props.md'
+  - Welcome: index.md
+  - Embed:
+    - Getting started: embed/index.md
+    - crate:
+      - Intro: embed/crate/index.md
+      - Options: embed/crate/options/index.md
+      - API: embed/crate/api.md
+      - Examples: embed/crate/examples/index.md
+    - html-embed:
+      - Intro: embed/html-embed/index.md
+      - Attributes: embed/html-embed/attributes.md
+      - API: embed/html-embed/api.md
+    - react-embed:
+      - Intro: embed/react-embed/index.md
+      - Props: embed/react-embed/props.md
 
 # Extensions
 markdown_extensions:

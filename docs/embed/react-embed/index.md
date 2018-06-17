@@ -2,4 +2,4 @@
 
 ---
 
-{!react-embed/demo.md!}
+{!embed/react-embed/demo.md!}
