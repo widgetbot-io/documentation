@@ -154,6 +154,8 @@ Once you've initialised a new constructor, you can manipulate it using the follo
     })
     ```
 
+---
+
 ### On
 
 !!! info "Definition"

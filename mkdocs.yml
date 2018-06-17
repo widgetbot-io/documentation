@@ -29,8 +29,12 @@ pages:
     - Examples: 'crate/examples/index.md'
   - html-embed:
     - Intro: 'html-embed/index.md'
+    - Attributes: 'html-embed/attributes.md'
+    - API: 'html-embed/api.md'
   - react-embed:
     - Intro: 'react-embed/index.md'
+    - Props: 'react-embed/props.md'
+    - API: 'react-embed/api.md'
 
 # Extensions
 markdown_extensions:
