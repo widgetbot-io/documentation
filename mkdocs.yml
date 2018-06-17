@@ -34,7 +34,6 @@ pages:
   - react-embed:
     - Intro: 'react-embed/index.md'
     - Props: 'react-embed/props.md'
-    - API: 'react-embed/api.md'
 
 # Extensions
 markdown_extensions:
