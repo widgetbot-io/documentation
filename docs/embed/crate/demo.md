@@ -1,6 +1,6 @@
 !!! example "Crate (recommended)"
 
-    [`@widgetbot/crate`](/crate) provides a little chat button in the corner of your website. It shows message notifications from your server and provides an extensive API.
+    [`@widgetbot/crate`](/embed/crate) provides a little chat button in the corner of your website. It shows message notifications from your server and provides an extensive API.
 
     ```html
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async>

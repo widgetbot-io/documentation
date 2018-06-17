@@ -1,6 +1,6 @@
 !!! example "react-embed"
 
-    [`@widgetbot/react-embed`](/react-embed) provides access to the embed as a React component. It provides syntactical sugar for the `embed-api`, with 100% type safety (using typescript).
+    [`@widgetbot/react-embed`](/embed/react-embed) provides access to the embed as a React component. It provides syntactical sugar for the `embed-api`, with 100% type safety (using typescript).
 
     ```ts
     import * as React from 'react'

@@ -1,6 +1,6 @@
 !!! example "html-embed"
 
-    [`@widgetbot/html-embed`](/html-embed) is a lightweight iframe wrapper, which provides access to the `embed-api`. It can be used with any framework and has no dependencies.
+    [`@widgetbot/html-embed`](/embed/html-embed) is a lightweight iframe wrapper, which provides access to the `embed-api`. It can be used with any framework and has no dependencies.
 
     ```html
     <widgetbot

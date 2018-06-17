@@ -75,3 +75,10 @@
 [data-md-color-primary='deep-purple'] .md-tabs {
   background-color: #5a6179;
 }
+
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 2000px;
+}
