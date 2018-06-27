@@ -11,10 +11,10 @@
         server="299881420891881473"
         channel="355719584830980096"
         onAPI={(api) => {
-          api.on('signIn', user => {
+          /*api.on('signIn', user => {
             console.log(`Guest signed in as ${user.name}`, user)
             api.emit('sendMessage', 'Hello world')
-          })
+          })*/
         }}
       />
     )
