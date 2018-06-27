@@ -13,9 +13,9 @@
     <script>
       const embed = document.getElementById('embed')
 
-      embed.on('signIn', data => {
+      /*embed.on('signIn', data => {
         console.log(`Guest signed in as ${data.name}`)
         embed.emit('sendMessage', 'Hello world')
-      })
+      })*/
     </script>
     ```
