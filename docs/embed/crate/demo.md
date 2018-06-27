@@ -9,10 +9,10 @@
         channel: '355719584830980096'
       })
 
-      crate.notify('Test notification')
+      /*crate.notify('Test notification')
       crate.on('signIn', data => {
         console.log(`Guest signed in as ${data.name}`)
         crate.emit('sendMessage', 'Hello world')
-      })
+      })*/
     </script>
     ```
