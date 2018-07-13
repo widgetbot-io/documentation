@@ -4,4 +4,4 @@
 
 ## Available configuration
 
-<iframe src="https://server-typedoc.widgetbot.io/interfaces/_types_config_d_.userconfig.html"></iframe>
+<iframe style="height: 2000px" src="https://server-typedoc.widgetbot.io/interfaces/_types_config_d_.userconfig.html"></iframe>
