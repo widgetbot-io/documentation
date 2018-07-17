@@ -24,6 +24,7 @@ theme:
 # Pages
 pages:
   - Welcome: index.md
+  - Tutorial: embed/tutorial/index.md
   - Embed:
     - Getting started: embed/index.md
     - crate:
