@@ -12,11 +12,7 @@
   </p>
 </p>
 <p align="center">
-
-  [ ![Chat](https://img.shields.io/discord/299881420891881473.svg?colorB=7289DA&amp;style=flat) ](https://discord.gg/RVNmwdy)
-  
-  ![Chat](https://img.shields.io/discord/299881420891881473.svg?colorB=7289DA&amp;style=flat)
-
+  [<img src="https://img.shields.io/discord/299881420891881473.svg?colorB=7289DA&amp;style=flat">](https://discord.gg/RVNmwdy)
 </p>
 
 ---
