@@ -24,7 +24,8 @@ theme:
 # Pages
 pages:
   - Welcome: index.md
-  - Tutorial: tutorial/index.md
+  - Tutorial:
+    - Getting started with WidgetBot: tutorial/index.md
   - Embed:
     - Getting started: embed/index.md
     - crate:
