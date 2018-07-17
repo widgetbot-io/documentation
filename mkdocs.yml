@@ -37,6 +37,7 @@ pages:
       - Examples: embed/crate/examples/index.md
     - html-embed:
       - Intro: embed/html-embed/index.md
+      - Tutorial: embed/html-embed/tutorial.md
       - Attributes: embed/html-embed/attributes.md
       - API: embed/html-embed/api.md
     - react-embed:
