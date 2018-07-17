@@ -22,9 +22,10 @@ If you run your site with this code, you should see the little crate button in t
 
 As you can see, there are 3 parts to this code: the **Server ID**, **Channel ID**, and **shard**.
 
-You can get the Server and Channel IDs from Discord.  
-One way is to open Discord in your browser and take them from the URL. The URL has the following format: `https://discordapp.com/channels/SERVERID/CHANNELID`.  
-Another way is to go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
+You can get the Server and Channel IDs from Discord.
+
+* One way is to open Discord in your browser and take them from the URL. The URL has the following format: `https://discordapp.com/channels/SERVERID/CHANNELID`.
+* Another way is to go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
 
 !!! info "Note"
 

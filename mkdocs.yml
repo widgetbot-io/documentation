@@ -26,6 +26,7 @@ pages:
   - Welcome: index.md
   - Tutorial:
     - Getting started with WidgetBot: tutorial/index.md
+    - iframe Tutorial: tutorial/iframes.md
   - Embed:
     - Getting started: embed/index.md
     - crate:
