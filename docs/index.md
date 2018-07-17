@@ -12,7 +12,9 @@
   </p>
 </p>
 <p align="center">
-  [<img src="https://img.shields.io/discord/299881420891881473.svg?colorB=7289DA&amp;style=flat">](https://discord.gg/RVNmwdy)
+  <a href="https://discord.gg/RVNmwdy">
+    <img src="https://img.shields.io/discord/299881420891881473.svg?colorB=7289DA&amp;style=flat">
+  </a>
 </p>
 
 ---
