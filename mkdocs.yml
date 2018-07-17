@@ -30,6 +30,7 @@ pages:
     - Getting started: embed/index.md
     - crate:
       - Intro: embed/crate/index.md
+      - Tutorial: embed/crate/tutorial.md
       - Options: embed/crate/options/index.md
       - API: embed/crate/api.md
       - Examples: embed/crate/examples/index.md
