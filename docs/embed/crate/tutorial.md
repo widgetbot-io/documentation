@@ -50,7 +50,7 @@ Once you set the Server ID, Channel ID, and Shard, the widget should now show yo
 This tutorial showed you the `server`, `channel`, and `shard` options. However, there are many other options you can set, letting you do things such as change the location, the color and icon, toggling message notifications, and more. For a full list of options, click [here](/embed/crate/options).
 
 ### API
-You can use Crate's API do to things such as changing options, showing notifications, and toggling the widget through JavaScript. For more info, click [here](/embed/crate/api).
+You can use Crate's API to do things such as changing options, showing notifications, and toggling the widget through JavaScript. You can also access WidgetBot's [embed-api](https://github.com/widgetbot-io/embed-api). For more info, click [here](/embed/crate/api).
 
 ### Examples
 You can see tons of Crate examples [here](/embed/crate/examples).
