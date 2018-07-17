@@ -24,15 +24,20 @@ theme:
 # Pages
 pages:
   - Welcome: index.md
+  - Tutorial:
+    - Getting Started with WidgetBot: tutorial/index.md
+    - iframe Tutorial: tutorial/iframes.md
   - Embed:
     - Getting started: embed/index.md
     - crate:
       - Intro: embed/crate/index.md
+      - Tutorial: embed/crate/tutorial.md
       - Options: embed/crate/options/index.md
       - API: embed/crate/api.md
       - Examples: embed/crate/examples/index.md
     - html-embed:
       - Intro: embed/html-embed/index.md
+      - Tutorial: embed/html-embed/tutorial.md
       - Attributes: embed/html-embed/attributes.md
       - API: embed/html-embed/api.md
     - react-embed:
