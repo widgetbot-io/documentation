@@ -4,7 +4,7 @@ This tutorial assumes you have already completed the [Getting Started with Widge
 
 ## Getting Started
 
-To get started, add the following code where you want the widget to show up.
+To get started, add the following code where you want the widget to display.
 
 ```html
 <iframe src="https://cl1.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>

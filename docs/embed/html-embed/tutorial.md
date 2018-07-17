@@ -4,7 +4,7 @@ This tutorial assumes you have already completed the [Getting Started with Widge
 
 ## Getting Started
 
-To get started with html-embed, add the following basic code to your website. This goes in your site's HTML source at the end of your website's `head`, right before the closing `</head>` tag. This might be in your theme or layout's code.
+To get started, add the following code where you want the widget to display.
 
 ```html
 <widgetbot
@@ -46,4 +46,4 @@ You must use the correct one for the bot you added to your server. Also, make su
 Once you set the Server ID, Channel ID, and Shard, the widget should now show your server when you open it.
 
 ## API
-You can use html-embed's API to access WidgetBot's [embed-api](https://github.com/widgetbot-io/embed-api) For more info, click [here](/embed/html-embed/api).
+You can use html-embed's API to access WidgetBot's [embed-api](https://github.com/widgetbot-io/embed-api). For more info, click [here](/embed/html-embed/api).

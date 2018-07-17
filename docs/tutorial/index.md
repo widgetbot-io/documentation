@@ -22,8 +22,8 @@ You can choose between Crate and one of our inline formats.
 ### Inline formats
 These let you put a chat box in your site you can change the size, etc.
 
-* **[Normal iframe](iframe)**: Use this when you can't use JavaScript for any reason. You can not use the embed-api. [Tutorial](iframe)
-* **[html-embed](/embed/html-embed/tutorial)**: A lightweight iframe wrapper which provides access to the embed-api. Requires JavaScript. [Tutorial](/embed/html-embed/tutorial), [Documentation](/embed/html-embed)
-* **[react-embed](/embed/react-embed)**: Provides access to the embed as a React component, and lets you use the embed-api. [Documentation](/embed/react-embed)
+* **[Normal iframe](iframes)**: Use this when you can't use JavaScript. It does not provide access to the [embed-api](https://github.com/widgetbot-io/embed-api). [Tutorial](iframe)
+* **[html-embed](/embed/html-embed/tutorial)**: A lightweight iframe wrapper which provides access to the [embed-api](https://github.com/widgetbot-io/embed-api). Requires JavaScript. [Tutorial](/embed/html-embed/tutorial), [Documentation](/embed/html-embed)
+* **[react-embed](/embed/react-embed)**: Provides access to the embed as a React component, and lets you use the [embed-api](https://github.com/widgetbot-io/embed-api). [Documentation](/embed/react-embed)
 
 Choose one of the formats to continue the tutorial and learn about adding the embed to your website.
