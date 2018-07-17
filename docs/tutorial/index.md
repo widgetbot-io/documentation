@@ -10,14 +10,14 @@ For best performance, choose one of our clusters:
 * [Cluster 4 (cl4)](https://discordapp.com/oauth2/authorize?client_id=454690860097863680&scope=bot&permissions=537218112)
 * [Cluster 5 (cl5)](https://discordapp.com/oauth2/authorize?client_id=454690940968370188&scope=bot&permissions=537218112)
 
-Alternatively, if you want beta features such as letting guests mention users and use custom emotes, use [the beta version]((https://discordapp.com/oauth2/authorize?client_id=356856478495408129&scope=bot&permissions=537218112). Note that this may have bugs.
+Alternatively, if you want beta features such as letting guests mention users and use custom emotes, use [the beta version](https://discordapp.com/oauth2/authorize?client_id=356856478495408129&scope=bot&permissions=537218112). Note that this may have bugs.
 
 After you add one of the bots to your server, you need to pick a format to use in your website.  
 You can choose between Crate and one of our inline formats.
 
 ## Formats
 
-* **[Crate (recommended)](embed/crate/tutorial)**: Shows a little chat button in the corner of your website. It shows message notifications and provides an API. [Info](https://widgetbot.io/crate), [Tutorial](/embed/crate/tutorial), [Documentation](/embed/crate)
+* **[Crate (recommended)](/embed/crate/tutorial)**: Shows a little chat button in the corner of your website. It shows message notifications and provides an API. [Info](https://widgetbot.io/crate), [Tutorial](/embed/crate/tutorial), [Documentation](/embed/crate)
 
 ### Inline formats
 These let you put a chat box in your site you can change the size, etc.

@@ -4,7 +4,7 @@ This tutorial assumes you have already completed the [Getting Started with Widge
 
 ## Getting Started
 
-To get started with Crate, add the following basic code to your website. This goes in your site's HTML source at the end of your website's `head`, right before `</head>`. This might be in your theme or layout's code.
+To get started with Crate, add the following basic code to your website. This goes in your site's HTML source at the end of your website's `head`, right before the closing `</head>` tag. This might be in your theme or layout's code.
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
@@ -22,9 +22,13 @@ If you run your site with this code, you should see the little crate button in t
 
 As you can see, there are 3 parts to this code: the **Server ID**, **Channel ID**, and **shard**.
 
-You can get the Server and Channel IDs from Discord. One way is to open Discord in your browser and take them from the URL. The URL has the following format: `https://discordapp.com/channels/SERVERID/CHANNELID`. Another way is to go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
+You can get the Server and Channel IDs from Discord.  
+One way is to open Discord in your browser and take them from the URL. The URL has the following format: `https://discordapp.com/channels/SERVERID/CHANNELID`.  
+Another way is to go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
 
-> The Channel ID you choose will be the default channel that will show when Crate opens. However, the user can switch the channel.
+!!! info "Note"
+
+    The Channel ID you choose will be the default channel that will show when Crate opens. However, the user can switch the channel.
 
 The `shard` is the WidgetBot cluster you are using. This can be one of the following:
 
