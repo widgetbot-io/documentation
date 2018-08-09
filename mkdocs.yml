@@ -43,9 +43,12 @@ pages:
     - react-embed:
       - Intro: embed/react-embed/index.md
       - Props: embed/react-embed/props.md
-  - Self hosted:
+  - Self-hosted:
       - Getting started: self-hosted/index.md
       - Configuration: self-hosted/config.md
+  - Guides:
+      - WidgetBot Guides: guides/index.md
+      - Move to a cluster: guides/move-to-cluster.md
 
 # Extensions
 markdown_extensions:
