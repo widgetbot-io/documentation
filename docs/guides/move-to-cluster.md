@@ -28,12 +28,14 @@ First, click on the link for a cluster and add the bot to your server.
 
 ### iframes
 
-Preprend the cluster to the domain in the `src` url, for example `https://widgetbot.io/channels/34234/234432` => `https://cl4.widgetbot.io/channels/34234/234432`. For more info see [the iframe tutorial](/tutorial/iframes) (the cluster is the `shard`).
+Preprend the cluster to the domain in the `src` url, for example `https://widgetbot.io/channels/34234/234432` => `https://cl4.widgetbot.io/channels/34234/234432`.
 
 !!! example "iframe example with cluster"
     ```html
     <iframe src="https://cl1.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
     ```
+
+For more info see [the iframe tutorial](/tutorial/iframes) (the cluster is the `shard`).
 
 ### Crate
 
