@@ -1,5 +1,8 @@
 To get started with WidgetBot, first you must invite the bot to your server.
 
+!!! question "Need help?"
+    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and cluster**, and optionally include **a link to your site**.
+
 ## Adding the Bot
 
 For best performance, choose one of our clusters:

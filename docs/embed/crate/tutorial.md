@@ -1,20 +1,25 @@
 Welcome to the Crate tutorial!
 
-This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.
+!!! warning "Important"
+    **This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite a cluster bot**.
+
+!!! question "Need help?"
+    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and cluster**, and optionally include **a link to your site**.
 
 ## Getting Started
 
 To get started with Crate, add the following basic code to your website. This goes in your site's HTML source at the end of your website's `head`, right before the closing `</head>` tag. This might be in your theme or layout's code.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-  new Crate({
-    server: '299881420891881473',
-    channel: '355719584830980096',
-    shard: 'https://cl1.widgetbot.io'
-  })
-</script>
-```
+!!! example "Example Code"
+    ```html
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+      new Crate({
+        server: '299881420891881473',
+        channel: '355719584830980096',
+        shard: 'https://cl1.widgetbot.io'
+      })
+    </script>
+    ```
 
 If you run your site with this code, you should see the little crate button in the bottom right corner. If you click it, it should show you the official WidgetBot server.
 
@@ -40,9 +45,13 @@ The `shard` is the WidgetBot cluster you are using. This can be one of the follo
 * `https://cl5.widgetbot.io`
 * `https://beta.widgetbot.io`
 
-You must use the correct one for the bot you added to your server. Also, make sure there is no slash at the end.
+!!! tip "Important"
+    **You must use the correct shard for the bot you added to your server.** Also, make sure there is no slash at the end of the `shard`.
 
 Once you set the Server ID, Channel ID, and Shard, the widget should now show your server when you open it.
+
+!!! success "Complete!"
+    You have successfully set up WidgetBot. However you can further customize WidgetBot to your needs. Read below for more info.
 
 ## Further customization
 

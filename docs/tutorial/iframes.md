@@ -1,14 +1,19 @@
 Welcome to the iframe tutorial!
 
-This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.
+!!! warning "Important"
+    **This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite a cluster bot**.
+
+!!! question "Need help?"
+    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and cluster**, and optionally include **a link to your site**.
 
 ## Getting Started
 
 To get started, add the following code where you want the widget to display.
 
-```html
-<iframe src="https://cl1.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
-```
+!!! example "Example Code"
+    ```html
+    <iframe src="https://cl1.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
+    ```
 
 If you run your site with this code, you should see the widget, showing the official WidgetBot server.
 
@@ -34,6 +39,10 @@ You can get the Server and Channel IDs from Discord.
 
 The `shard` is the WidgetBot cluster you are using. This can be one of the following: `cl1`, `cl2`, `cl3`, `cl4`, `cl5`, or `beta`.
 
-You must use the correct one for the bot you added to your server.
+!!! tip "Important"
+    **You must use the correct shard for the bot you added to your server.**
 
 Once you set the Server ID, Channel ID, and Shard, the widget should now show your server.
+
+!!! success "Complete!"
+    You have successfully set up WidgetBot.

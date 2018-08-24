@@ -1,21 +1,28 @@
 Welcome to the html-embed tutorial!
 
+!!! warning "Important"
+    **This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite a cluster bot**.
+
+!!! question "Need help?"
+    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and cluster**, and optionally include **a link to your site**.
+
 This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.
 
 ## Getting Started
 
 To get started, add the following code where you want the widget to display.
 
-```html
-<widgetbot
-  server="299881420891881473"
-  channel="355719584830980096"
-  width="800"
-  height="600"
-  shard="https://cl1.widgetbot.io"
-></widgetbot>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-```
+!!! example "Example Code"
+    ```html
+    <widgetbot
+      server="299881420891881473"
+      channel="355719584830980096"
+      width="800"
+      height="600"
+      shard="https://cl1.widgetbot.io"
+    ></widgetbot>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+    ```
 
 If you run your site with this code, you should see the widget, showing the official WidgetBot server.
 
@@ -41,9 +48,13 @@ The `shard` is the WidgetBot cluster you are using. This can be one of the follo
 * `https://cl5.widgetbot.io`
 * `https://beta.widgetbot.io`
 
-You must use the correct one for the bot you added to your server. Also, make sure there is no slash at the end.
+!!! tip "Important"
+    **You must use the correct shard for the bot you added to your server.** Also, make sure there is no slash at the end of the `shard`.
 
 Once you set the Server ID, Channel ID, and Shard, the widget should now show your server when you open it.
+
+!!! success "Complete!"
+    You have successfully set up WidgetBot. However you can further customize WidgetBot to your needs. Read below for more info.
 
 ## API
 You can use html-embed's API to access WidgetBot's [embed-api](https://github.com/widgetbot-io/embed-api). For more info, click [here](/embed/html-embed/api).
