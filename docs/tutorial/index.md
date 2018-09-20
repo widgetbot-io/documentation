@@ -11,16 +11,16 @@ To get started with WidgetBot, first you must invite the bot to your server.
 
 For best performance, choose one of our clusters:
 
-~~* [Cluster 1 (cl1)](https://discordapp.com/oauth2/authorize?client_id=454690519952523267&scope=bot&permissions=537218112)~~
-* [Cluster 2 (cl2)](https://discordapp.com/oauth2/authorize?client_id=454690621454548994&scope=bot&permissions=537218112)
-~~* [Cluster 3 (cl3)](https://discordapp.com/oauth2/authorize?client_id=454690769010425856&scope=bot&permissions=537218112)
-* [Cluster 4 (cl4)](https://discordapp.com/oauth2/authorize?client_id=454690860097863680&scope=bot&permissions=537218112)
-* [Cluster 5 (cl5)](https://discordapp.com/oauth2/authorize?client_id=454690940968370188&scope=bot&permissions=537218112)
+* ~~[Cluster 1 (cl1)](https://discordapp.com/oauth2/authorize?client_id=454690519952523267&scope=bot&permissions=537218112)~~
+* **[Cluster 2 (cl2)](https://discordapp.com/oauth2/authorize?client_id=454690621454548994&scope=bot&permissions=537218112)**
+* ~~[Cluster 3 (cl3)](https://discordapp.com/oauth2/authorize?client_id=454690769010425856&scope=bot&permissions=537218112)~~
+* ~~[Cluster 4 (cl4)](https://discordapp.com/oauth2/authorize?client_id=454690860097863680&scope=bot&permissions=537218112)~~
+* ~~[Cluster 5 (cl5)](https://discordapp.com/oauth2/authorize?client_id=454690940968370188&scope=bot&permissions=537218112)~~
 
 !!! tip "Important"
     WidgetBot will not work if you don't add the bot to your server!
 
-Alternatively, if you want beta features such as letting guests mention users and use custom emotes, use [the beta version](https://discordapp.com/oauth2/authorize?client_id=356856478495408129&scope=bot&permissions=537218112). Note that this may have bugs.~~
+~~Alternatively, if you want beta features such as letting guests mention users and use custom emotes, use [the beta version](https://discordapp.com/oauth2/authorize?client_id=356856478495408129&scope=bot&permissions=537218112). Note that this may have bugs.~~
 
 After you add one of the bots to your server, you need to pick a format to use in your website.  
 You can choose between Crate and one of our inline formats.
