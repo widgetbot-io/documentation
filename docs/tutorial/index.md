@@ -8,9 +8,10 @@ To get started with WidgetBot, first you must invite the bot to your server.
 
 For best performance, choose one of our clusters:
 
-* [Cluster 1 (cl1)](https://discordapp.com/oauth2/authorize?client_id=454690519952523267&scope=bot&permissions=537218112)
-* [Cluster 3 (cl3)](https://discordapp.com/oauth2/authorize?client_id=454690769010425856&scope=bot&permissions=537218112)
-* [Cluster 4 (cl4)](https://discordapp.com/oauth2/authorize?client_id=454690860097863680&scope=bot&permissions=537218112)
+<!--* [Cluster 1 (cl1)](https://discordapp.com/oauth2/authorize?client_id=454690519952523267&scope=bot&permissions=537218112)
+* [Cluster 3 (cl3)](https://discordapp.com/oauth2/authorize?client_id=454690769010425856&scope=bot&permissions=537218112)-->
+* [Cluster 2 (cl2)](https://school-b.us/wbot-cl2)
+* [Cluster 4 (cl4)](https://school-b.us/wbot-cl4)
 
 !!! tip "Important"
     WidgetBot will not work if you don't add the bot to your server!
