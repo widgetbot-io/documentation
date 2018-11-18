@@ -11,11 +11,11 @@ Choose a cluster:
 <!--* [Cluster 1 (cl1)](https://discordapp.com/oauth2/authorize?client_id=454690519952523267&scope=bot&permissions=537218112)
 * [Cluster 3 (cl3)](https://discordapp.com/oauth2/authorize?client_id=454690769010425856&scope=bot&permissions=537218112)-->
 * [Temp Bot (widgetbot.io)](https://discordapp.com/oauth2/authorize?client_id=510537630039932948&scope=bot&permissions=537218112)
-* [Cluster 2 (cl2)](https://school-b.us/wbot-cl2)
-<!--* [Cluster 4 (cl4)](https://school-b.us/wbot-cl4)-->
+<!--* [Cluster 2 (cl2)](https://school-b.us/wbot-cl2)
+* [Cluster 4 (cl4)](https://school-b.us/wbot-cl4)-->
 
-The Temp Bot has better uptime but doesn't work in all servers (set shard to `https://widgetbot.io`)  
-The cl2 Bot has worse uptime but works in all servers (set shard to `https://cl2.widgetbot.io`)
+In future steps set the shard to **`https://widgetbot.io`**.
+<!--The cl2 Bot has worse uptime but works in all servers (set shard to `https://cl2.widgetbot.io`)-->
 
 
 !!! tip "Important"
