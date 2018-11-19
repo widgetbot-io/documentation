@@ -1,12 +1,10 @@
-Discord now requires us to use sharding - something that will need to be worked on. WidgetBot may display "unable to locate this server" to some users, randomly. This will be fixed soon.
+Please switch to a cluster to resolve the issue.
 
-**In the meantime, we'd recommend all users to use one of the clusters**
+Choose a cluster:
 
-<!--* [Cluster 1 (cl1)](https://discordapp.com/oauth2/authorize?client_id=454690519952523267&scope=bot&permissions=537218112)
-* [Cluster 3 (cl3)](https://discordapp.com/oauth2/authorize?client_id=454690769010425856&scope=bot&permissions=537218112)-->
-* [Cluster 2 (cl2)](https://school-b.us/wbot-cl2)
-<!--* [Cluster 4 (cl4)](https://school-b.us/wbot-cl4)-->
-<!-- Alternatively, if you want beta features such as letting guests mention users and use custom emotes, use [the beta version](https://discordapp.com/oauth2/authorize?client_id=356856478495408129&scope=bot&permissions=537218112). Note that this may have bugs. -->
+* [Cluster 1 (cl1)](https://add.widgetbot.io/cl1)
+* [Cluster 2 (cl2)](https://add.widgetbot.io/cl2)
+* [Cluster 3 (cl3)](https://add.widgetbot.io/cl3)
 
 !!! tip "Important"
     WidgetBot will not work if you don't add a cluster bot to your server!
