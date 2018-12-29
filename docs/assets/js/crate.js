@@ -8,7 +8,8 @@ script.onload = function() {
   var crate = new Crate({
     server: '299881420891881473',
     channel: '368427726358446110',
-    color: '#697EC7'
+    color: '#697EC7',
+    shard: 'https://cl2.widgetbot.io'
   })
   crate.notify('Need a hand? Leave a message!')
 }
