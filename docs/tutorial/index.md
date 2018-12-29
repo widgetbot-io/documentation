@@ -8,7 +8,6 @@ To get started with WidgetBot, first you must invite the bot to your server.
 
 Choose a cluster:
 
-* [Cluster 1 (cl1)](https://add.widgetbot.io/cl1)
 * [Cluster 2 (cl2)](https://add.widgetbot.io/cl2)
 * [Cluster 3 (cl3)](https://add.widgetbot.io/cl3)
 

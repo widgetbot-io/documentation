@@ -2,7 +2,6 @@ Please switch to a cluster to resolve the issue.
 
 Choose a cluster:
 
-* [Cluster 1 (cl1)](https://add.widgetbot.io/cl1)
 * [Cluster 2 (cl2)](https://add.widgetbot.io/cl2)
 * [Cluster 3 (cl3)](https://add.widgetbot.io/cl3)
 
@@ -17,7 +16,7 @@ Choose a cluster:
 First, click on the link for a cluster and add the bot to your server.
 
 !!! note
-    The examples on this page use Cluster 1 (cl1), change it to the cluster you added to the server.
+    The examples on this page use Cluster 2 (cl2), change it to the cluster you added to the server.
   
 #### Jump to
 * [iframes](#iframes)
@@ -27,11 +26,11 @@ First, click on the link for a cluster and add the bot to your server.
 
 ### iframes
 
-Preprend the cluster to the domain in the `src` url, for example `https://widgetbot.io/channels/34234/234432` => `https://cl4.widgetbot.io/channels/34234/234432`.
+Preprend the cluster to the domain in the `src` url, for example `https://widgetbot.io/channels/34234/234432` => `https://cl2.widgetbot.io/channels/34234/234432`.
 
 !!! example "iframe example with cluster"
     ```html
-    <iframe src="https://cl1.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
+    <iframe src="https://cl2.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
     ```
 
 For more info see [the iframe tutorial](/tutorial/iframes) (the cluster is the `shard`).
@@ -46,7 +45,7 @@ Set the `shard` [option](/embed/crate/options):
       new Crate({
         server: '299881420891881473',
         channel: '355719584830980096',
-        shard: 'https://cl1.widgetbot.io'
+        shard: 'https://cl2.widgetbot.io'
       })
     </script>
     ```
@@ -64,7 +63,7 @@ Add a `shard` [attribute](/embed/html-embed/attributes)
       channel="355719584830980096"
       width="800"
       height="600"
-      shard="https://cl1.widgetbot.io"
+      shard="https://cl2.widgetbot.io"
     ></widgetbot>
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     ```
@@ -85,7 +84,7 @@ Set the `shard` [prop](/embed/react-embed/props)
       <WidgetBot
         server="299881420891881473"
         channel="355719584830980096"
-        shard="https://cl1.widgetbot.io"
+        shard="https://cl2.widgetbot.io"
       />
     )
     

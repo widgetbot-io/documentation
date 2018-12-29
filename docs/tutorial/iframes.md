@@ -12,7 +12,7 @@ To get started, add the following code where you want the widget to display.
 
 !!! example "Example Code"
     ```html
-    <iframe src="https://cl1.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
+    <iframe src="https://cl2.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
     ```
 
 If you run your site with this code, you should see the widget, showing the official WidgetBot server.
@@ -24,7 +24,7 @@ The WidgetBot URL has the following format:
 https://SHARD.widgetbot.io/channels/SERVERID/CHANNELID
 ```
 
-In the example code, the SHARD is `cl1`, the SERVERID is `299881420891881473`, and the Channel ID is `355719584830980096`.
+In the example code, the SHARD is `cl2`, the SERVERID is `299881420891881473`, and the Channel ID is `355719584830980096`.
 
 To set it to your server, you must change the shard, Server ID, and Channel ID.
 

@@ -19,7 +19,7 @@ To get started, add the following code where you want the widget to display.
       channel="355719584830980096"
       width="800"
       height="600"
-      shard="https://cl1.widgetbot.io"
+      shard="https://cl2.widgetbot.io"
     ></widgetbot>
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     ```
