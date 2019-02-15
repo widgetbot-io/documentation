@@ -21,7 +21,7 @@
 We recommend using the **[async](#async)** version of the API, as it'll make your website *way faster*. The synchronous version should only be used if it's being dynamically inserted into your website after the page's initial load (eg. A custom JS script)
 
 ### [Initialising a custom crate object](https://codepen.io/samdenty99/pen/ppGqYJ)
-<p data-height="265" data-theme-id="dark" data-slug-hash="OrxQLv" data-default-tab="html,result" data-user="advaith1" data-pen-title="Sync crate" class="codepen">See the Pen <a href="https://codepen.io/advaith1/pen/OrxQLv/">Sync crate</a> by Advaith (<a href="https://codepen.io/advaith1">@advaith1</a>) on <a href="https://codepen.io">CodePen</a>.</p>/p>
+<p data-height="265" data-theme-id="dark" data-slug-hash="OrxQLv" data-default-tab="html,result" data-user="advaith1" data-pen-title="Sync crate" class="codepen">See the Pen <a href="https://codepen.io/advaith1/pen/OrxQLv/">Sync crate</a> by Advaith (<a href="https://codepen.io/advaith1">@advaith1</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
