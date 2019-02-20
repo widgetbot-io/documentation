@@ -6,6 +6,10 @@
 [crate]: https://github.com/widgetbot-io/documentation/tree/master/docs/embed/crate
 [html-embed]: https://github.com/widgetbot-io/documentation/tree/master/docs/embed/html-embed
 [react-embed]: https://github.com/widgetbot-io/documentation/tree/master/docs/embed/react-embed
+[Support]: https://discord.gg/8zYvp6W
+[Invite the Bot]: https://add.widgetbot.io/cl2
+[Admonition]: https://squidfunk.github.io/mkdocs-material/extensions/admonition
+[GitHub]: https://github.com/widgetbot-io/widgetbot
 
 # WidgetBot documentation
 This repository contains the documentation, that can be found at https://docs.widgetbot.io/  
@@ -33,81 +37,9 @@ Tutorials.
 The used sites are saved as markdown-files (`.md`) and use markdown and some basic html, like iframes.  
 But there is also some own additional styling used in order to provide additional stuff.
 
-## Boxes
-The documentation can have boxes containing infos, tips or similar.  
-Each type of box follows a similar pattern.
-
-You start with three exclamation marks (`!`) followed by the type (info, tip, note, example, question, warning or success) and the title of the box.  
-The title needs to be in `"` (Example: `!!! info "Hello there"`)  
-The actual content of the box needs to be on a seperate line and start with 4 spaces.
-
-### Info
-```
-!!! info "Note"
-    This section is for self-hosting the WidgetBot **server**, not the embed or other things. Only Legendary [patrons](https://widgetbot.io/patron) can self-host the server.
-```
-
-**Result**:  
-![](https://i.imgur.com/MCLHVly.png)
-
-----
-### tip
-```
-!!! tip "Important"
-    WidgetBot will not work if you don't add a cluster bot to your server!
-```
-
-**Result**:  
-![](https://i.imgur.com/j8cmLrw.png)
-
-----
-### note
-```
-!!! note
-    There is no difference between the clusters.
-```
-
-**Result**:  
-![](https://i.imgur.com/eTY0aSc.png)
-
-----
-### example
-```
-!!! example "iframe example with cluster"
-    ```html
-    <iframe src="https://cl2.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
-    ```
-```
-
-**Result**:  
-![](https://i.imgur.com/lK2SfSL.png)
-
-----
-### question
-```
-!!! question "Need help?"
-    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and cluster**, and optionally include **a link to your site**.
-```
-
-**Result**:  
-![](https://i.imgur.com/l8q0MCz.png)
-
-----
-### warning
-```
-!!! warning "Important"
-    **This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite a cluster bot**.
-```
-
-**Result**:  
-![](https://i.imgur.com/nyMTMDD.png)
-
-----
-### success
-```
-!!! success "Complete!"
-    You have successfully set up WidgetBot.
-```
-
-**Result**:  
-![](https://i.imgur.com/J0Xa7tf.png)
+## Links
+Here are some links, that might be useful for you.
+* [Support] - Need help? Join the WidgetBot-guild to get support with the bot.
+* [Invite the Bot] - Use this link to invite the Bot (Cluster 2) to your Guild!
+* [Admonition] - A extension of the mkdocs-material library that is used for things like Info-boxes.
+* [GitHub] - WidgetBot is open source. Check it out.
