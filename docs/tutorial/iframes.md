@@ -4,7 +4,10 @@ Welcome to the iframe tutorial!
     **This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite a cluster bot**.
 
 !!! question "Need help?"
-    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and cluster**, and optionally include **a link to your site**.
+    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and WidgetBot instance**, and optionally include **a link to your site**.
+
+!!! important "Important"
+    Using an iframe may break the browser's back button. We recommend using [html-embed](/embed/html-embed/tutorial) or [react-embed](/embed/react-embed) when you can use JavaScript.
 
 ## Getting Started
 

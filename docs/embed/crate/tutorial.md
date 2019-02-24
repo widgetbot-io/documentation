@@ -4,7 +4,7 @@ Welcome to the Crate tutorial!
     **This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite a cluster bot**.
 
 !!! question "Need help?"
-    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and cluster**, and optionally include **a link to your site**.
+    If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and WidgetBot instance**, and optionally include **a link to your site**.
 
 ## Getting Started
 
@@ -36,14 +36,12 @@ You can get the Server and Channel IDs from Discord.
 
     The Channel ID you choose will be the default channel that will show when Crate opens. However, the user can switch the channel.
 
-The `shard` is the WidgetBot cluster you are using. This can be one of the following:
+The `shard` is the WidgetBot instance you are using. This can be one of the following:
 
-* `https://cl1.widgetbot.io`
 * `https://cl2.widgetbot.io`
 * `https://cl3.widgetbot.io`
-* `https://cl4.widgetbot.io`
-* `https://cl5.widgetbot.io`
-* `https://beta.widgetbot.io`
+* `https://disweb.deploys.io`
+* Your self-hosted instance
 
 !!! tip "Important"
     **You must use the correct shard for the bot you added to your server.** Also, make sure there is no slash at the end of the `shard`.
@@ -59,7 +57,7 @@ Once you set the Server ID, Channel ID, and Shard, the widget should now show yo
 This tutorial showed you the `server`, `channel`, and `shard` options. However, there are many other options you can set, letting you do things such as change the location, the color and icon, toggling message notifications, and more. For a full list of options, click [here](/embed/crate/options).
 
 ### API
-You can use Crate's API to do things such as changing options, showing notifications, and toggling the widget through JavaScript. You can also access WidgetBot's [embed-api](https://github.com/widgetbot-io/embed-api). For more info, click [here](/embed/crate/api).
+You can use Crate's API to do things such as changing options, showing notifications, and toggling the widget through JavaScript. You can also access WidgetBot's [embed-api](https://github.com/widgetbot-io/widgetbot/tree/2.5/packages/embed-api). For more info, click [here](/embed/crate/api).
 
 ### Examples
 You can see tons of Crate examples [here](/embed/crate/examples).
