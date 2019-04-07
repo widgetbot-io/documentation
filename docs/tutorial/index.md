@@ -11,6 +11,7 @@ Choose a WidgetBot instance, and click the name to add the bot.
 ### Official Instances
 These are operated by the WidgetBot team, and you can apply [patron perks](https://about.widgetbot.io/patron) on these.
 
+* [Cluster 1 (cl1)](https://add.widgetbot.io/cl1): `https://cl1.widgetbot.io`
 * [Cluster 2 (cl2)](https://add.widgetbot.io/cl2): `https://cl2.widgetbot.io`
 * [Cluster 3 (cl3)](https://add.widgetbot.io/cl3): `https://cl3.widgetbot.io`
 

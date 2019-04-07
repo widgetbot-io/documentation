@@ -38,6 +38,7 @@ You can get the Server and Channel IDs from Discord.
 
 The `shard` is the WidgetBot instance you are using. This can be one of the following:
 
+* `https://cl1.widgetbot.io`
 * `https://cl2.widgetbot.io`
 * `https://cl3.widgetbot.io`
 * `https://disweb.deploys.io`

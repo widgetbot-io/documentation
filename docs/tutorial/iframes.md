@@ -40,7 +40,8 @@ You can get the Server and Channel IDs from Discord.
 
     The Channel ID you choose will be the default channel that will show when the widget loads. However, the user can switch the channel.
 
-The `shard` is the WidgetBot cluster you are using. This can be one of the following: `cl1`, `cl2`, `cl3`, `cl4`, `cl5`, or `beta`.
+The `shard` is the WidgetBot cluster you are using. This can be one of the following: `cl1`, `cl2`, or `cl3`.  
+If using DisWeb or self-hosted, change `cl2.widgetbot.io` to the full [sub]domain.
 
 !!! tip "Important"
     **You must use the correct shard for the bot you added to your server.**
