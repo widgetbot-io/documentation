@@ -12,9 +12,11 @@ Choose a WidgetBot instance, and click the name to add the bot.
 These are operated by the WidgetBot team, and you can apply [patron perks](https://about.widgetbot.io/patron) on these.-->
 
 Recommended:
+
 * [DisWeb](https://disweb.deploys.io/api/invite) `https://disweb.deploys.io`
 
 Legacy instances
+
 * [Cluster 1 (cl1)](https://add.widgetbot.io/cl1): `https://cl1.widgetbot.io`
 * [Cluster 3 (cl3)](https://add.widgetbot.io/cl3): `https://cl3.widgetbot.io`
 
