@@ -15,7 +15,7 @@ To get started, add the following code where you want the widget to display.
 
 !!! example "Example Code"
     ```html
-    <iframe src="https://cl2.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
+    <iframe src="https://disweb.deploys.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
     ```
 
 If you run your site with this code, you should see the widget, showing the official WidgetBot server.
@@ -24,10 +24,10 @@ If you run your site with this code, you should see the widget, showing the offi
 
 The WidgetBot URL has the following format:
 ```
-https://SHARD.widgetbot.io/channels/SERVERID/CHANNELID
+https://INSTANCE/channels/SERVERID/CHANNELID
 ```
 
-In the example code, the SHARD is `cl2`, the SERVERID is `299881420891881473`, and the Channel ID is `355719584830980096`.
+In the example code, the INSTANCE is `disweb.deploys.io`, the SERVERID is `299881420891881473`, and the Channel ID is `355719584830980096`.
 
 To set it to your server, you must change the shard, Server ID, and Channel ID.
 
@@ -40,8 +40,11 @@ You can get the Server and Channel IDs from Discord.
 
     The Channel ID you choose will be the default channel that will show when the widget loads. However, the user can switch the channel.
 
-The `shard` is the WidgetBot cluster you are using. This can be one of the following: `cl1`, `cl2`, or `cl3`.  
-If using DisWeb or self-hosted, change `cl2.widgetbot.io` to the full [sub]domain.
+The `shard` is the WidgetBot cluster you are using. This can be one of the following: 
+* `https://disweb.deploys.io`
+* `https://cl1.widgetbot.io`
+* `https://cl3.widgetbot.io`
+* Your self-hosted instance
 
 !!! tip "Important"
     **You must use the correct shard for the bot you added to your server.**

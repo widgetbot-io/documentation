@@ -2,9 +2,12 @@ Please switch to a cluster to resolve the issue.
 
 Choose a cluster:
 
-* [Cluster 1 (cl1)](https://add.widgetbot.io/cl1)
-* [Cluster 2 (cl2)](https://add.widgetbot.io/cl2)
-* [Cluster 3 (cl3)](https://add.widgetbot.io/cl3)
+Recommended:
+* [DisWeb](https://disweb.deploys.io/api/invite) `https://disweb.deploys.io`
+
+Legacy instances
+* [Cluster 1 (cl1)](https://add.widgetbot.io/cl1): `https://cl1.widgetbot.io`
+* [Cluster 3 (cl3)](https://add.widgetbot.io/cl3): `https://cl3.widgetbot.io`
 
 !!! tip "Important"
     WidgetBot will not work if you don't add a cluster bot to your server!
@@ -27,11 +30,11 @@ First, click on the link for a cluster and add the bot to your server.
 
 ### iframes
 
-Preprend the cluster to the domain in the `src` url, for example `https://widgetbot.io/channels/34234/234432` => `https://cl2.widgetbot.io/channels/34234/234432`.
+Change the domain in the `src` url, for example `https://widgetbot.io/channels/34234/234432` => `https://cl2.widgetbot.io/channels/34234/234432`.
 
 !!! example "iframe example with cluster"
     ```html
-    <iframe src="https://cl2.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
+    <iframe src="https://disweb.deploys.io.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
     ```
 
 For more info see [the iframe tutorial](/tutorial/iframes) (the cluster is the `shard`).
@@ -46,7 +49,7 @@ Set the `shard` [option](/embed/crate/options):
       new Crate({
         server: '299881420891881473',
         channel: '355719584830980096',
-        shard: 'https://cl2.widgetbot.io'
+        shard: 'https://disweb.deploys.io'
       })
     </script>
     ```
@@ -64,7 +67,7 @@ Add a `shard` [attribute](/embed/html-embed/attributes)
       channel="355719584830980096"
       width="800"
       height="600"
-      shard="https://cl2.widgetbot.io"
+      shard="https://disweb.deploys.io"
     ></widgetbot>
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     ```
@@ -77,7 +80,7 @@ For more info see [the html-embed tutorial](/embed/html-embed/tutorial).
 Set the `shard` [prop](/embed/react-embed/props)
 
 !!! example "react-embed example with cluster"
-    ```js
+    ```ts
     import * as React from 'react'
     import WidgetBot from '@widgetbot/react-embed'
     
@@ -85,7 +88,7 @@ Set the `shard` [prop](/embed/react-embed/props)
       <WidgetBot
         server="299881420891881473"
         channel="355719584830980096"
-        shard="https://cl2.widgetbot.io"
+        shard="https://disweb.deploys.io"
       />
     )
     

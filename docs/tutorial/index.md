@@ -8,17 +8,19 @@ To get started with WidgetBot, first you must invite the bot to your server.
 
 Choose a WidgetBot instance, and click the name to add the bot.
 
-### Official Instances
-These are operated by the WidgetBot team, and you can apply [patron perks](https://about.widgetbot.io/patron) on these.
+<!--### Official Instances
+These are operated by the WidgetBot team, and you can apply [patron perks](https://about.widgetbot.io/patron) on these.-->
 
+Recommended:
+* [DisWeb](https://disweb.deploys.io/api/invite) `https://disweb.deploys.io`
+
+Legacy instances
 * [Cluster 1 (cl1)](https://add.widgetbot.io/cl1): `https://cl1.widgetbot.io`
-* [Cluster 2 (cl2)](https://add.widgetbot.io/cl2): `https://cl2.widgetbot.io`
 * [Cluster 3 (cl3)](https://add.widgetbot.io/cl3): `https://cl3.widgetbot.io`
 
-### Third-Party Instances
-These are operated by third-parties and WidgetBot patron perks may not apply.
+<!--### Third-Party Instances
+These are operated by third-parties and WidgetBot patron perks may not apply.-->
 
-* [DisWeb](https://disweb.deploys.io/api/invite) `https://disweb.deploys.io`
 
 You can also [host WidgetBot yourself](/self-hosted).
 
@@ -26,8 +28,8 @@ You can also [host WidgetBot yourself](/self-hosted).
 !!! tip "Important"
     WidgetBot will not work if you don't add the bot to your server!
 
-!!! note
-    The instances are mostly identical, however there are some small differences: cl2 and DisWeb render mentions, but cl3 doesn't. cl3 renders animated emojis, but cl2 and DisWeb don't. Also, cl2 will not work on a server with the 2FA Requirement on.
+<!--!!! note
+    The instances are mostly identical, however there are some small differences: cl2 and DisWeb render mentions, but cl3 doesn't. cl3 renders animated emojis, but cl2 and DisWeb don't. Also, cl2 will not work on a server with the 2FA Requirement on.-->
 
 <!-- Alternatively, if you want beta features such as letting guests mention users and use custom emotes, use [the beta version](https://discordapp.com/oauth2/authorize?client_id=356856478495408129&scope=bot&permissions=537218112). Note that this may have bugs. -->
 

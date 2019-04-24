@@ -6,16 +6,9 @@
     <widgetbot
       server="299881420891881473"
       channel="355719584830980096"
-      id="embed"
+      width="800"
+      height="600"
+      shard="https://disweb.deploys.io"
     ></widgetbot>
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-
-    <script>
-      const embed = document.getElementById('embed')
-
-      /*embed.on('signIn', data => {
-        console.log(`Guest signed in as ${data.name}`)
-        embed.emit('sendMessage', 'Hello world')
-      })*/
-    </script>
     ```
