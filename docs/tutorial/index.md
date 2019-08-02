@@ -15,14 +15,13 @@ Recommended:
 
 * [DisWeb](https://disweb.deploys.io/api/invite) `https://disweb.deploys.io`
 
-Legacy instances
-
-* [Cluster 1 (cl1)](https://add.widgetbot.io/cl1): `https://cl1.widgetbot.io`
-* [Cluster 3 (cl3)](https://add.widgetbot.io/cl3): `https://cl3.widgetbot.io`
+??? note "Legacy instances"
+    ⚠️ These are old instances and are not recommended for use, they will stop getting updates in the future.
+    * [Cluster 1 (cl1)](https://add.widgetbot.io/cl1): `https://cl1.widgetbot.io`
+    * [Cluster 3 (cl3)](https://add.widgetbot.io/cl3): `https://cl3.widgetbot.io`
 
 <!--### Third-Party Instances
 These are operated by third-parties and WidgetBot patron perks may not apply.-->
-
 
 You can also [host WidgetBot yourself](/self-hosted).
 
