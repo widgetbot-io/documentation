@@ -48,7 +48,7 @@ pages:
       - Configuration: self-hosted/config.md
   - Guides:
       - WidgetBot Guides: guides/index.md
-      - Move to a cluster: guides/move-to-cluster.md
+      - Make channel read-only: guides/read-only.md
 
 # Extensions
 markdown_extensions:

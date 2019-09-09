@@ -6,25 +6,9 @@ To get started with WidgetBot, first you must invite the bot to your server.
 
 ## Adding the Bot
 
-Choose a WidgetBot instance, and click the name to add the bot.
+**[Add the official bot](https://disweb.deploys.io/api/invite)**
 
-<!--### Official Instances
-These are operated by the WidgetBot team, and you can apply [patron perks](https://about.widgetbot.io/patron) on these.-->
-
-Recommended:
-
-* [DisWeb](https://disweb.deploys.io/api/invite) `https://disweb.deploys.io`
-
-??? note "Legacy instances"
-    ⚠️ These are old instances and are not recommended for use, they will stop getting updates in the future.
-    
-    * [Cluster 1 (cl1)](https://add.widgetbot.io/cl1): `https://cl1.widgetbot.io`
-    * [Cluster 3 (cl3)](https://add.widgetbot.io/cl3): `https://cl3.widgetbot.io`
-
-<!--### Third-Party Instances
-These are operated by third-parties and WidgetBot patron perks may not apply.-->
-
-You can also [host WidgetBot yourself](/self-hosted).
+You can also [host WidgetBot yourself](/self-hosted), however this is not recommended..
 
 
 !!! tip "Important"
