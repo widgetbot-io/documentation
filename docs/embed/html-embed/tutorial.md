@@ -19,7 +19,7 @@ To get started, add the following code where you want the widget to display.
       channel="355719584830980096"
       width="800"
       height="600"
-      shard="https://disweb.deploys.io"
+      shard="https://disweb.dashflo.net"
     ></widgetbot>
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     ```
@@ -41,7 +41,7 @@ You can get the Server and Channel IDs from Discord.
 
 The `shard` is the WidgetBot instance you are using. This can be one of the following:
 
-* `https://disweb.deploys.io`
+* `https://disweb.dashflo.net`
 * `https://cl1.widgetbot.io`
 * `https://cl3.widgetbot.io`
 * Your self-hosted instance

@@ -6,7 +6,7 @@ To get started with WidgetBot, first you must invite the bot to your server.
 
 ## Adding the Bot
 
-**[Add the official bot](https://disweb.deploys.io/api/invite)**
+**[Add the official bot](https://add.widgetbot.io)**
 
 You can also [host WidgetBot yourself](/self-hosted), however this is not recommended..
 

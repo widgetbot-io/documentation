@@ -7,7 +7,7 @@
       new Crate({
         server: '299881420891881473',
         channel: '355719584830980096',
-        shard: 'https://disweb.deploys.io'
+        shard: 'https://disweb.dashflo.net'
       })
     </script>
     ```

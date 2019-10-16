@@ -16,7 +16,7 @@ To get started with Crate, add the following basic code to your website. This go
       new Crate({
         server: '299881420891881473',
         channel: '355719584830980096',
-        shard: 'https://disweb.deploys.io'
+        shard: 'https://disweb.dashflo.net'
       })
     </script>
     ```
@@ -38,7 +38,7 @@ You can get the Server and Channel IDs from Discord.
 
 The `shard` is the WidgetBot instance you are using. This can be one of the following:
 
-* `https://disweb.deploys.io`
+* `https://disweb.dashflo.net`
 * `https://cl1.widgetbot.io`
 * `https://cl3.widgetbot.io`
 * Your self-hosted instance

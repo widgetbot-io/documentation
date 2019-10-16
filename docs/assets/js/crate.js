@@ -9,7 +9,7 @@ script.onload = function() {
     server: '299881420891881473',
     channel: '368427726358446110',
     color: '#697EC7',
-    shard: 'https://disweb.deploys.io'
+    shard: 'https://disweb.dashflo.net'
   })
   crate.notify('Need a hand? Leave a message!')
 }

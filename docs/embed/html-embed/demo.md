@@ -8,7 +8,7 @@
       channel="355719584830980096"
       width="800"
       height="600"
-      shard="https://disweb.deploys.io"
+      shard="https://disweb.dashflo.net"
     ></widgetbot>
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     ```
