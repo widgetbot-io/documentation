@@ -42,8 +42,6 @@ You can get the Server and Channel IDs from Discord.
 
 The `shard` is the WidgetBot cluster you are using. This can be one of the following: 
 * `https://disweb.dashflo.net`
-* `https://cl1.widgetbot.io`
-* `https://cl3.widgetbot.io`
 * Your self-hosted instance
 
 !!! tip "Important"

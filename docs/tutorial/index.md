@@ -14,10 +14,8 @@ You can also [host WidgetBot yourself](/self-hosted), however this is not recomm
 !!! tip "Important"
     WidgetBot will not work if you don't add the bot to your server!
 
-<!--!!! note
-    The instances are mostly identical, however there are some small differences: cl2 and DisWeb render mentions, but cl3 doesn't. cl3 renders animated emojis, but cl2 and DisWeb don't. Also, cl2 will not work on a server with the 2FA Requirement on.-->
-
-<!-- Alternatively, if you want beta features such as letting guests mention users and use custom emotes, use [the beta version](https://discordapp.com/oauth2/authorize?client_id=356856478495408129&scope=bot&permissions=537218112). Note that this may have bugs. -->
+!!! note
+    [Join the server](https://discord.gg/NYBEhN7) and ask to join the beta to get new features including Discord login!
 
 After you add one of the bots to your server, you need to pick a format to use in your website.  
 You can choose between Crate and one of our inline formats.
