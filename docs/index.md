@@ -5,7 +5,7 @@
     id="embed"
     height="300"
     width="500"
-    shard="https://disweb.dashflo.net"
+    shard="https://e.widgetbot.io"
   />
 	<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
   <p align="center">
