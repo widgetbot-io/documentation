@@ -3,7 +3,7 @@
     server="299881420891881473"
     channel="355719584830980096"
     id="embed"
-    height="300"
+    height="450"
     width="500"
     shard="https://e.widgetbot.io"
   />
