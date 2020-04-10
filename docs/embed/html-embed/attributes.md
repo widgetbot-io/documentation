@@ -3,7 +3,7 @@ You can pass custom attributes to the `<widgetbot>` element, to change the optio
 ```html
 <widgetbot
   server="299881420891881473"
-  shard="https://disweb.dashflo.net"
+  shard="https://e.widgetbot.io"
 ></widgetbot>
 ```
 

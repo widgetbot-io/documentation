@@ -15,7 +15,7 @@ To get started, add the following code where you want the widget to display.
 
 !!! example "Example Code"
     ```html
-    <iframe src="https://disweb.dashflo.net/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
+    <iframe src="https://e.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
     ```
 
 If you run your site with this code, you should see the widget, showing the official WidgetBot server.
@@ -27,7 +27,7 @@ The WidgetBot URL has the following format:
 https://INSTANCE/channels/SERVERID/CHANNELID
 ```
 
-In the example code, the INSTANCE is `disweb.dashflo.net`, the SERVERID is `299881420891881473`, and the Channel ID is `355719584830980096`.
+In the example code, the INSTANCE is `e.widgetbot.io`, the SERVERID is `299881420891881473`, and the Channel ID is `355719584830980096`.
 
 To set it to your server, you must change the shard, Server ID, and Channel ID.
 
@@ -41,7 +41,7 @@ You can get the Server and Channel IDs from Discord.
     The Channel ID you choose will be the default channel that will show when the widget loads. However, the user can switch the channel.
 
 The `shard` is the WidgetBot cluster you are using. This can be one of the following: 
-* `https://disweb.dashflo.net`
+* `https://e.widgetbot.io`
 * Your self-hosted instance
 
 !!! tip "Important"

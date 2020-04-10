@@ -1,8 +1,8 @@
 site_name: WidgetBot.io
 
 # Repository
-repo_name: 'widgetbot-io/widgetbot'
-repo_url: 'https://github.com/widgetbot-io/widgetbot'
+repo_name: 'widgetbot-io/embed'
+repo_url: 'https://github.com/widgetbot-io/embed'
 edit_uri: 'https://github.com/widgetbot-io/documentation/edit/master/docs/'
 
 # Meta
