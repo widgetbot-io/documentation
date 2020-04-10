@@ -8,7 +8,7 @@ edit_uri: 'https://github.com/widgetbot-io/documentation/edit/master/docs/'
 # Meta
 site_description: 'Discord chat widgets for your website.'
 site_author: 'WidgetBot'
-copyright: 'Copyright &copy; 2019 Sam Denty'
+copyright: 'Copyright &copy; 2020 WidgetBot'
 
 # Configuration
 theme:
