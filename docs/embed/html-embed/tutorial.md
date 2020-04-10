@@ -30,24 +30,15 @@ If you run your site with this code, you should see the widget, showing the offi
 
 As you can see, there are 3 parts to this code: the **Server ID**, **Channel ID**, and **shard**. (There's also the width and height for setting the size of the embed.)
 
-You can get the Server and Channel IDs from Discord.
+You can get the Server and Channel IDs from Discord: Go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
 
-* One way is to open Discord in your browser and take them from the URL. The URL has the following format: `https://discordapp.com/channels/SERVERID/CHANNELID`.
-* Another way is to go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
+The shard should always be `https://e.widgetbot.io`, without a `/` at the end.
 
 !!! info "Note"
 
     The Channel ID you choose will be the default channel that will show when Crate opens. However, the user can switch the channel.
 
-The `shard` is the WidgetBot instance you are using. This can be one of the following:
-
-* `https://e.widgetbot.io`
-* Your self-hosted instance
-
-!!! tip "Important"
-    **You must use the correct shard for the bot you added to your server.** Also, make sure there is no slash at the end of the `shard`.
-
-Once you set the Server ID, Channel ID, and Shard, the widget should now show your server when you open it.
+Once you set the Server ID and Channel ID, the widget should now show your server when you open it.
 
 !!! success "Complete!"
     You have successfully set up WidgetBot. However you can further customize WidgetBot to your needs. Read below for more info.

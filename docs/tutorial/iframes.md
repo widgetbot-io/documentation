@@ -24,30 +24,20 @@ If you run your site with this code, you should see the widget, showing the offi
 
 The WidgetBot URL has the following format:
 ```
-https://INSTANCE/channels/SERVERID/CHANNELID
+https://e.widgetbot.io/channels/SERVERID/CHANNELID
 ```
 
-In the example code, the INSTANCE is `e.widgetbot.io`, the SERVERID is `299881420891881473`, and the Channel ID is `355719584830980096`.
+In the example code, the SERVERID is `299881420891881473` and the CHANNELID is `355719584830980096`.
 
 To set it to your server, you must change the shard, Server ID, and Channel ID.
 
-You can get the Server and Channel IDs from Discord.
-
-* One way is to open Discord in your browser and take them from the URL. The URL has the following format: `https://discordapp.com/channels/SERVERID/CHANNELID`.
-* Another way is to go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
+You can get the Server and Channel IDs from Discord: Go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
 
 !!! info "Note"
 
     The Channel ID you choose will be the default channel that will show when the widget loads. However, the user can switch the channel.
 
-The `shard` is the WidgetBot cluster you are using. This can be one of the following: 
-* `https://e.widgetbot.io`
-* Your self-hosted instance
-
-!!! tip "Important"
-    **You must use the correct shard for the bot you added to your server.**
-
-Once you set the Server ID, Channel ID, and Shard, the widget should now show your server.
+Once you set the Server ID and Channel ID, the widget should now show your server.
 
 !!! success "Complete!"
     You have successfully set up WidgetBot.

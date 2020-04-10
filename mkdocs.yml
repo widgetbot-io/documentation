@@ -43,9 +43,6 @@ pages:
     - react-embed:
       - Intro: embed/react-embed/index.md
       - Props: embed/react-embed/props.md
-  - Self-hosted:
-      - Getting started: self-hosted/index.md
-      - Configuration: self-hosted/config.md
   - Guides:
       - WidgetBot Guides: guides/index.md
       - Make channel read-only: guides/read-only.md

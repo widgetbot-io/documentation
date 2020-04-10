@@ -8,9 +8,6 @@ To get started with WidgetBot, first you must invite the bot to your server.
 
 **[Add the official bot](https://add.widgetbot.io)**
 
-You can also [host WidgetBot yourself](/self-hosted), however this is not recommended.
-
-
 !!! tip "Important"
     WidgetBot will not work if you don't add the bot to your server!
 
