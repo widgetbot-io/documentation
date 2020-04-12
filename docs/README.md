@@ -1,3 +1,7 @@
+:::warning
+Our new documentation is currently WIP!
+:::
+
 ## Welcome to the official WidgetBot documentation site!
 
 * Check out our [tutorial](tutorial) for setting up WidgetBot
