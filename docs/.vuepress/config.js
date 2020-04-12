@@ -2,6 +2,7 @@ module.exports = {
     title: 'WidgetBot',
     description: 'The open-source server management solution.',
     host: 'localhost',
+    theme: 'thindark',
     themeConfig: {
         repo: 'widgetbot-io/embed',
         repoLabel: 'Contribute',
