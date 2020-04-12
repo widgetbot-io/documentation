@@ -1,12 +1,4 @@
 <p align="center">
-	<widgetbot
-    server="299881420891881473"
-    channel="355719584830980096"
-    id="embed"
-    height="450"
-    width="500"
-    shard="https://e.widgetbot.io"
-  />
 	<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
   <p align="center">
     Discord chat widgets for your website.

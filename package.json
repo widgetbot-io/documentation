@@ -1,0 +1,13 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:widgetbot-io/documentation.git",
+  "author": "Daave <daave@widgetbot.io>",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
