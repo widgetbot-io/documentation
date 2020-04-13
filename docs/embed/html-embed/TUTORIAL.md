@@ -1,3 +1,5 @@
+# html-embed Tutorial
+
 Welcome to the html-embed tutorial!
 
 :::tip Important

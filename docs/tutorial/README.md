@@ -1,3 +1,5 @@
+# Tutorial
+
 To get started with WidgetBot, first you must invite the bot to your server.
 
 ::: tip Need help?

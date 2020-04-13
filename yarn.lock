@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+vuepress-plugin-clean-urls@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-clean-urls/-/vuepress-plugin-clean-urls-1.1.1.tgz#593f47be643c33c34413ba408e8bee31aaf534bd"
+  integrity sha512-cEDbqme8rPbkSbjz73ONFSKIZkzC8HFRBY7UD/oa1ZC655HYhQo3JMbJgJXeCQjV/vkl7WuPB/QMNlQY20PXjw==

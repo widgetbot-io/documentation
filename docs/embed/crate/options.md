@@ -1,4 +1,6 @@
-You can pass custom options to crate when initializing it, for example:
+# Crate Options
+
+You can pass custom options to Crate when initializing it, for example:
 
 ```ts
 new Crate({ server: '299881420891881473', location: ['top', 'left'] })

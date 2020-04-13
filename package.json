@@ -9,5 +9,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "vuepress-plugin-clean-urls": "^1.1.1"
+  }
 }

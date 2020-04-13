@@ -1,10 +1,12 @@
+# Crate Tutorial
+
 Welcome to the Crate tutorial!
 
 ::: warning Important
 **This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite a cluster bot**.
 :::
 
-::: question Need help?
+::: tip Need help?
 If you need any assistance adding WidgetBot, please ask in [the server](https://discord.gg/NYBEhN7). **However**, please make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server id and WidgetBot instance**, and optionally include **a link to your site**.
 :::
 
@@ -28,7 +30,7 @@ If you run your site with this code, you should see the little crate button in t
 
 As you can see, there are 3 parts to this code: the **Server ID**, **Channel ID**, and **shard**.
 
-You can get the Server and Channel IDs from Discord: Ggo to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
+You can get the Server and Channel IDs from Discord: Go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
 
 The shard should always be `https://e.widgetbot.io`, without a `/` at the end.
 

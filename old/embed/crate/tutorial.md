@@ -27,7 +27,7 @@ If you run your site with this code, you should see the little crate button in t
 
 As you can see, there are 3 parts to this code: the **Server ID**, **Channel ID**, and **shard**.
 
-You can get the Server and Channel IDs from Discord: Ggo to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
+You can get the Server and Channel IDs from Discord: Go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
 
 The shard should always be `https://e.widgetbot.io`, without a `/` at the end.
 

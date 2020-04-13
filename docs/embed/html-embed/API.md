@@ -1,4 +1,4 @@
-# API
+# html-embed API
 
 Once you've created a new WidgetBot element, the `html-embed` script adds the API methods onto the Elements prototype.
 
@@ -17,54 +17,57 @@ const embed = document.getElementById('embed')
 
 ### Emit
 
-!!! info "Definition"
+::: tip Definition
 
-    ```ts
-    type emit = <Event>(event: Event, data: Events[Event]) => void
-    ```
+```ts
+type emit = <Event>(event: Event, data: Events[Event]) => void
+```
+:::
 
-    Emits an event to the `embed-api`
+Emits an event to the `embed-api`
 
-!!! example "Usage"
+::: tip Usage
 
-    ```js
-    // Send a message on the active Discord channel
-    embed.emit('sendMessage', 'hi')
+```js
+// Send a message on the active Discord channel
+embed.emit('sendMessage', 'hi')
 
-    // Send a message on a specific Discord channel
-    embed.emit('sendMessage', {
-      channel: '123456789',
-      message: 'hi'
-    })
-    ```
-
+// Send a message on a specific Discord channel
+embed.emit('sendMessage', {
+  channel: '123456789',
+  message: 'hi'
+})
+```
+:::
 ---
 
 ### On
 
-!!! info "Definition"
+::: tip Definition
 
-    ```ts
-    type on = <Event>(event: Event, (data: Events[Event]) => void) => void
-    ```
+```ts
+type on = <Event>(event: Event, (data: Events[Event]) => void) => void
+```
+:::
 
-    Listens for a specific event from the `embed-api`
+Listens for a specific event from the `embed-api`
 
-!!! example "Usage"
+::: tip Usage
 
-    ```js
-    // Listens for when the user has signed in
-    embed.on('signIn', (user) => {
-      console.log(`Guest signed in as ${user.name}`, user)
-    })
+```js
+// Listens for when the user has signed in
+embed.on('signIn', (user) => {
+  console.log(`Guest signed in as ${user.name}`, user)
+})
 
-    // Listen for discord message events
-    embed.on('message', ({ message, channel }) => {
-      console.log(`New message in ${channel}`, message)
-    })
+// Listen for discord message events
+embed.on('message', ({ message, channel }) => {
+  console.log(`New message in ${channel}`, message)
+})
 
-    // Listen for discord message delete events
-    embed.on('messageDelete', ({ channel, id }) => {
-      console.log(`Message in ${channel} with an ID of ${id}, was deleted`)
-    })
-    ```
+// Listen for discord message delete events
+embed.on('messageDelete', ({ channel, id }) => {
+  console.log(`Message in ${channel} with an ID of ${id}, was deleted`)
+})
+```
+:::

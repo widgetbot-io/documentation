@@ -1,6 +1,8 @@
+
+
 ::: tip Getting started
 
-WidgetBot provides a rich client-sides wrappers around the widgets. Each wrapper provides access to the `embed-api`, allowing your website to programatically:
+WidgetBot provides a rich client-side wrappers around the widgets. Each wrapper provides access to the `embed-api`, allowing your website to programatically:
 
 - Listen for message events
 - Send messages through WidgetBot
@@ -11,12 +13,12 @@ WidgetBot provides a rich client-sides wrappers around the widgets. Each wrapper
 
 ## Integrations
 
-[Crate](/embed/crate/demo.md)
+[Crate](/embed/crate/)
 
 ---
 
-[HTML-Embed](/embed/html-embed/demo.md)
+[html-embed](/embed/html-embed/)
 
 ---
 
-[React-Embed](/embed/react-embed/demo.md)
+[react-embed](/embed/react-embed/)
