@@ -1,5 +1,5 @@
 site
 .DS_Store
 .idea/workspace.xml
-/docs/.vuepress/dist/
+/.vuepress/dist/
 /node_modules/

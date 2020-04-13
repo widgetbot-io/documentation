@@ -5,8 +5,8 @@
   "repository": "git@github.com:widgetbot-io/documentation.git",
   "author": "Daave <daave@widgetbot.io>",
   "scripts": {
-    "docs:dev": "node node_modules/vuepress/cli.js dev docs",
-    "docs:build": "node node_modules/vuepress/cli.js build docs"
+    "docs:dev": "node node_modules/vuepress/cli.js dev",
+    "docs:build": "node node_modules/vuepress/cli.js build"
   },
   "dependencies": {
     "vuepress": "^1.4.0",

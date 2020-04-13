@@ -28,45 +28,45 @@ module.exports = {
                     {title: 'iframes', path: 'tutorial/iframes'}
                 ]
             },
-            {
-                title: 'Embed',
-                path: '/embed/',
-                collapsable: false,
-                children: [
-                    {
-                        title: 'Crate',
-                        path: '/embed/crate/',
-                        collapsable: false,
-                        children: [
-                            {title: 'Intro', path: '/embed/crate/'},
-                            {title: 'Tutorial', path: 'embed/crate/tutorial'},
-                            {title: 'Options', path: 'embed/crate/options'},
-                            {title: 'API', path: 'embed/crate/api'},
-                            {title: 'Examples', path: 'embed/crate/examples'}
-                        ]
-                    },
-                    {
-                        title: 'html-embed',
-                        path: '/embed/html-embed/',
-                        collapsable: false,
-                        children: [
-                            {title: 'Intro', path: '/embed/html-embed/'},
-                            {title: 'Tutorial', path: 'embed/html-embed/tutorial'},
-                            {title: 'Attributes', path: 'embed/html-embed/attributes'},
-                            {title: 'API', path: 'embed/html-embed/api'}
-                        ]
-                    },
-                    {
-                        title: 'react-embed',
-                        path: '/embed/react-embed/',
-                        collapsable: false,
-                        children: [
-                            {title: 'Intro', path: '/embed/react-embed/'},
-                            {title: 'Props', path: 'embed/react-embed/props'}
-                        ]
-                    }
-                ]
-            }
+            // {
+            //     title: 'Embed',
+            //     path: '/embed/',
+            //     collapsable: false,
+            //     children: [
+            //         {
+            //             title: 'Crate',
+            //             path: '/embed/crate/',
+            //             collapsable: false,
+            //             children: [
+            //                 {title: 'Intro', path: '/embed/crate/'},
+            //                 {title: 'Tutorial', path: 'embed/crate/tutorial'},
+            //                 {title: 'Options', path: 'embed/crate/options'},
+            //                 {title: 'API', path: 'embed/crate/api'},
+            //                 {title: 'Examples', path: 'embed/crate/examples'}
+            //             ]
+            //         },
+            //         {
+            //             title: 'html-embed',
+            //             path: '/embed/html-embed/',
+            //             collapsable: false,
+            //             children: [
+            //                 {title: 'Intro', path: '/embed/html-embed/'},
+            //                 {title: 'Tutorial', path: 'embed/html-embed/tutorial'},
+            //                 {title: 'Attributes', path: 'embed/html-embed/attributes'},
+            //                 {title: 'API', path: 'embed/html-embed/api'}
+            //             ]
+            //         },
+            //         {
+            //             title: 'react-embed',
+            //             path: '/embed/react-embed/',
+            //             collapsable: false,
+            //             children: [
+            //                 {title: 'Intro', path: '/embed/react-embed/'},
+            //                 {title: 'Props', path: 'embed/react-embed/props'}
+            //             ]
+            //         }
+            //     ]
+            // }
         ],
         searchPlaceholder: 'Search',
         nextLinks: false,
