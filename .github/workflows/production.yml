@@ -21,10 +21,8 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - name: Dependencies
-        run: yarn global add vuepress vuepress-plugin-clean-urls
       - name: Build
-        run: yarn docs:build
+        run: yarn && yarn docs:build
       - name: Docker login
         run: echo ${{ secrets.GITHUB_TOKEN }} | docker login docker.pkg.github.com --username yomanz --password-stdin
       - name: Docker build
