@@ -1,8 +1,8 @@
 module.exports = {
     title: 'WidgetBot',
-    description: 'The open-source server management solution.',
+    description: 'Pixel perfect discord embed for your website.',
     head: [
-        ['script', {src: 'https://cdn.jsdelivr.net/npm/@widgetbot/crate@3', async: true, defer: true}, 
+        ['script', {src: 'https://cdn.jsdelivr.net/npm/@widgetbot/crate@3', async: true, defer: true},
         'const crate = new Crate({server: \'299881420891881473\', channel: \'299881420891881473\', shard: \'https://e.widgetbot.io\'})']
     ],
     host: 'localhost',
