@@ -26,7 +26,7 @@ interface Attributes {
   width?: number | string
   height?: number | string
 
-  // Connect to a custom WidgetBot server
+  // Connect to a custom WidgetBot server (Only set this if you are explicitly told to)
   shard?: url
 }
 
