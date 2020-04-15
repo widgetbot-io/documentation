@@ -29,6 +29,8 @@ interface Options {
   color?: string
   // The glyph to display on the button
   glyph?: [url, size]
+  // Custom CSS to be injected into the Shadow root
+  css?: string
 
   // Message notifications
   notifications?: boolean
