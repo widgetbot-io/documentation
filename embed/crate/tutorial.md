@@ -53,4 +53,4 @@ This tutorial showed you the `server` and `channel` options. However, there are 
 You can use Crate's API to do things such as changing options, showing notifications, and toggling the widget through JavaScript. You can also access WidgetBot's [embed-api](https://github.com/widgetbot-io/embed-api). For more info, click [here](/embed/crate/api).
 
 ### Examples
-You can see tons of Crate examples [here](/embed/crate/examples).
+You can see tons of Crate examples [here](/embed/crate/examples.md).

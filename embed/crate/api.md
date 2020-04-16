@@ -84,7 +84,7 @@ notification.hide()
 type setOptions = (newOptions: Options) => Options
 ```
 :::
-Updates the options for crate in real time. [Available options](options)
+Updates the options for crate in real time. [Available options](options.d)
 
 ::: tip Usage
 

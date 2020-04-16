@@ -4,7 +4,7 @@
 
 ---
 ::: tip Crate (recommended)
-[`@widgetbot/crate`](/embed/crate) provides a little chat button in the corner of your website. It shows message notifications from your server and provides an extensive API.
+[`@widgetbot/crate`](/embed/crate/tutorial.md) provides a little chat button in the corner of your website. It shows message notifications from your server and provides an extensive API.
 :::
 
 ```html
