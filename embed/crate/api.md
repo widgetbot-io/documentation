@@ -1,5 +1,9 @@
 # Crate API
 
+:::warning
+This is not currently implemented in the latest version of WidgetBot.
+:::
+
 Once you've initialised a new constructor, you can manipulate it using the following methods
 
 ## Crate APIs
