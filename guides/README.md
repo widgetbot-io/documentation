@@ -5,5 +5,5 @@ This tutorial assumes you have already completed the [Getting Started with Widge
 :::
 
 ## Current Guides
-None
+[Custom CSS](/guides/css.md)
 
