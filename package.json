@@ -1,10 +1,15 @@
 {
-  "name": "@widgetbot/documentation",
+  "name": "documentation",
   "version": "1.0.0",
-  "repository": "https://github.com/widgetbot-io/documentation.git",
-  "author": "samdd <sam@samdd.me>",
-  "license": "MIT",
+  "main": "index.js",
+  "repository": "git@github.com:widgetbot-io/documentation.git",
+  "author": "Daave <daave@widgetbot.io>",
   "scripts": {
-    "start": "mkdocs serve"
+    "docs:dev": "node node_modules/vuepress/cli.js dev",
+    "docs:build": "node node_modules/vuepress/cli.js build"
+  },
+  "dependencies": {
+    "vuepress": "^1.4.0",
+    "vuepress-plugin-clean-urls": "^1.1.1"
   }
 }
