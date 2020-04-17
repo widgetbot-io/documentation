@@ -15,6 +15,10 @@ const embed = document.getElementById('embed')
 
 ## Embed API
 
+:::warning
+This is not currently implemented in the latest version of WidgetBot.
+:::
+
 ### Emit
 
 ::: tip Definition
