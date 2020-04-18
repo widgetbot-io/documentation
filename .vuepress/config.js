@@ -16,6 +16,7 @@ module.exports = {
         repo: 'widgetbot-io/embed',
         docsRepo: 'widgetbot-io/documentation',
         editLinks: true,
+        editLinkText: 'Help us improve this page!',
         repoLabel: 'Contribute',
         sidebar: {
             '/guides/': [
