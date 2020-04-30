@@ -18,7 +18,7 @@ WidgetBot will not work if you don't add the bot to your server!
 In WidgetBot v2, by default, guests are **disabled**, and users **must sign in with their Discord account to chat.** If you want to enable guests and let users type in any name without logging in, **send `??guestmode` in your server** after adding the bot.
 :::
 
-After you add one of the bots to your server, you need to pick a format to use in your website.  
+After you add the bot to your server, you need to pick a format to use in your website.  
 You can choose between Crate and one of our inline formats.
 
 ## Formats

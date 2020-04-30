@@ -12,7 +12,7 @@ If you need any assistance adding WidgetBot, please ask in [the server](https://
 
 ## Getting Started
 
-To get started with Crate, add the following basic code to your website. This goes in your site's HTML source at the end of your website's `head`, right before the closing `</head>` tag. This might be in your theme or layout's code.
+**To get started with Crate, send `??crate` in your server.** You should run it in the channel you want to show as default on your website. (Note that users can switch between the public channels in the sidebar). WidgetBot should send code that looks like this:
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
@@ -24,21 +24,11 @@ To get started with Crate, add the following basic code to your website. This go
 </script>
 ```
 
-If you run your site with this code, you should see the little crate button in the bottom right corner. If you click it, it should show you the official WidgetBot server.
+The code sent by the bot goes in your site's HTML source at the end of your website's `head`, right before the closing `</head>` tag. This might be in your theme or layout's code.
 
-## Setting your server
+If you run your site with this code, you should see the little crate button in the bottom right corner. If you click it, it should show your server, with the correct default channel.
 
-As you can see, there are 3 parts to this code: the **Server ID**, **Channel ID**, and **shard**.
-
-You can get the Server and Channel IDs from Discord: Go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
-
-The shard should always be `https://e.widgetbot.io`, without a `/` at the end.
-
-::: tip Note
-The Channel ID you choose will be the default channel that will show when Crate opens. However, the user can switch the channel.
-:::
-
-Once you set the Server ID and Channel ID, the widget should now show your server when you open it.
+(If there's an issue, please go to [the WidgetBot server](https://discord.gg/NYBEhN7), and make sure you mention **what the issue is**, **send your code** in a codeblock (` ``` `), include **your server and channel IDs**, and optionally include **a link to your site**.)
 
 ::: tip Complete!
 You have successfully set up WidgetBot. However you can further customize WidgetBot to your needs. Read below for more info.
