@@ -23,12 +23,17 @@ module.exports = {
             '/guides/': [
                 {
                     title: 'Helpful Guides',
-                    path: ''
+                    path: '',
+                    collapsable: false,
+                    children: [
+                        'automod',
+                        'custom-colors'
+                    ]
                 },
-                {
-                    title: 'Patreon',
-                    path: 'patreon'
-                }
+                //{
+                //    title: 'Patreon',
+                //    path: 'patreon'
+                //}
                 // {
                 //     title: 'Patreon',
                 //     path: '/guides/patreon',
