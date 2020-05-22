@@ -100,7 +100,9 @@ module.exports = {
     },
     plugins: [
         'vuepress-plugin-nprogress',
-        'vuepress-plugin-clean-urls'
+        ['vuepress-plugin-clean-urls', {
+            normalSuffix: '/'
+        }]
     ],
     markdown: {
         lineNumbers: true
