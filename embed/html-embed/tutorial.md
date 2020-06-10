@@ -22,7 +22,6 @@ To get started, add the following code where you want the widget to display.
   channel="355719584830980096"
   width="800"
   height="600"
-  shard="https://e.widgetbot.io"
 ></widgetbot>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 ```
@@ -32,11 +31,9 @@ If you run your site with this code, you should see the widget, showing the offi
 
 ## Setting your server
 
-As you can see, there are 3 parts to this code: the **Server ID**, **Channel ID**, and **shard**. (There's also the width and height for setting the size of the embed.)
+As you can see, there are 2 parts to this code: the **Server ID**, **Channel ID**. (There's also the width and height for setting the size of the embed.)
 
 You can get the Server and Channel IDs from Discord: Go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
-
-The shard should always be `https://e.widgetbot.io`, without a `/` at the end.
 
 :::tip Note
 The Channel ID you choose will be the default channel that will show when Crate opens. However, the user can switch the channel.

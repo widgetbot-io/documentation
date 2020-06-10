@@ -34,7 +34,7 @@ https://e.widgetbot.io/channels/SERVERID/CHANNELID
 
 In the example code, the SERVERID is `299881420891881473` and the CHANNELID is `355719584830980096`.
 
-To set it to your server, you must change the shard, Server ID, and Channel ID.
+To set it to your server, you must change the Server ID and Channel ID.
 
 You can get the Server and Channel IDs from Discord: Go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
 

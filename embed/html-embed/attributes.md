@@ -5,7 +5,9 @@ You can pass custom attributes to the `<widgetbot>` element, to change the optio
 ```html
 <widgetbot
   server="299881420891881473"
-  shard="https://e.widgetbot.io"
+  channel="355719584830980096"
+  width="800"
+  height="600"
 ></widgetbot>
 ```
 
