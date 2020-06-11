@@ -9,6 +9,7 @@
     "docs:build": "node node_modules/vuepress/cli.js build"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "vuepress": "^1.4.0",
     "vuepress-plugin-clean-urls": "^1.1.1",
     "vuepress-plugin-nprogress": "^1.1.6"
