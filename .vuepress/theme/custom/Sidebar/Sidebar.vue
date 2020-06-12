@@ -1,3 +1,4 @@
+<!--TODO: Recurse children for sidebar (look at current sidebar?) -->
 <template>
 		<div class="col-xl-3 col-lg-4 col-12">
 				<div
@@ -8,8 +9,8 @@
 						<div class="card-body">
 								<h6>{{item.title}}</h6>
 								<nav>
-										<ul v-for="(child, c) in item.children">
-												<li>
+										<ul>
+												<li v-for="(child, c) in item.children">
 														<a href="#">
 																<h5>{{child.title}}</h5>
 														</a>

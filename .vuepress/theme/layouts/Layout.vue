@@ -1,21 +1,21 @@
 <template>
 		<body class="docs">
-				<header>
-						<Navbar />
-				</header>
-				<main>
-						<section class="docs-block">
-								<div class="container">
-										<div class="row justify-content-center">
-												<Sidebar
-														:items="sidebarItems"
-														@toggle-sidebar="toggleSidebar"
-												/>
-												<Test />
-										</div>
+		<header>
+				<Navbar />
+		</header>
+		<main>
+				<section class="docs-block">
+						<div class="container">
+								<div class="row justify-content-center">
+										<Sidebar
+												:items="sidebarItems"
+												@toggle-sidebar="toggleSidebar"
+										/>
+										<Test />
 								</div>
-						</section>
-				</main>
+						</div>
+				</section>
+		</main>
 		</body>
 </template>
 
