@@ -8,6 +8,12 @@
   (<a href='https://codepen.io/advaith1'>@advaith1</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+### [Custom glyph](https://codepen.io/advaith1/pen/dyMOOjb)
+<iframe height="265" style="width: 100%;" scrolling="no" title="Crate with Glyph" src="https://codepen.io/advaith1/embed/preview/dyMOOjb?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/advaith1/pen/dyMOOjb'>Crate with Glyph</a> by Advaith
+  (<a href='https://codepen.io/advaith1'>@advaith1</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 ### [Initialising a custom crate object](https://codepen.io/advaith1/pen/MZErRx)
 <iframe height="265" style="width: 100%;" scrolling="no" title="Custom crate object" src="https://codepen.io/advaith1/embed/MZErRx?height=265&theme-id=dark&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true" loading="lazy">
   See the Pen <a href='https://codepen.io/advaith1/pen/MZErRx'>Custom crate object</a> by Advaith

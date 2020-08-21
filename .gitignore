@@ -3,3 +3,4 @@ site
 .idea/workspace.xml
 /.vuepress/dist/
 /node_modules/
+debug.log
