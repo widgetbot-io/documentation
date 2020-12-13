@@ -24,8 +24,8 @@ jobs:
       - name: Build
         run: yarn && yarn docs:build
       - name: Docker login
-        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login docker.pkg.github.com --username yomanz --password-stdin
+        run: echo ${{ secrets.PAT }} | docker login ghcr.io --username yomanz --password-stdin
       - name: Docker build
-        run: docker build -t docker.pkg.github.com/widgetbot-io/documentation/master:latest .
+        run: docker build -t ghcr.io/widgetbot-io/documentation:latest .
       - name: Docker push tag latest
-        run: docker push docker.pkg.github.com/widgetbot-io/documentation/master:latest
+        run: docker push ghcr.io/widgetbot-io/documentation:latest
