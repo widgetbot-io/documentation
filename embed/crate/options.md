@@ -14,8 +14,8 @@ new Crate({ server: '299881420891881473', location: ['top', 'left'] })
 type url = string
 type size = string
 
-export type horizontal = 'top' | 'bottom' | number
-export type vertical = 'left' | 'right' | number
+export type vertical = 'top' | 'bottom' | number
+export type horizontal = 'left' | 'right' | number
 
 interface Options {
   // Server + channel IDs
@@ -23,7 +23,7 @@ interface Options {
   channel?: string
 
   // Where the button should appear on-screen
-  location?: [horizontal, vertical]
+  location?: [vertical, horizontal]
 
   // The color of the button
   color?: string
