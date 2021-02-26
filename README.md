@@ -1,7 +1,3 @@
-:::warning
-The docs have recently been remade, they are WIP and may have parts missing/not working completely.
-:::
-
 ## Welcome to the official WidgetBot documentation site!
 
 * Check out our [tutorial](/tutorial/README.md) for setting up WidgetBot
