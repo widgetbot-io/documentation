@@ -15,7 +15,7 @@ You can write colors using [css syntax](https://developer.mozilla.org/en-US/docs
 Let's set the background to a pure black. Send `??setcolor background black` in the server:
 ![](https://advaith.is-in-hyper.space/6b562a74ee.png)
 
-Now, let's set the background color to a nice neon green. `??setcolor accent #00d101`:
+Now, let's set the accent color to a nice neon green. `??setcolor accent #00d101`:
 ![](https://advaith.is-in-hyper.space/6d7d87674e.png)
 
 Next, we'll try setting the text color to red: `??setcolor primary red`
