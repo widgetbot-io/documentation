@@ -3,7 +3,7 @@ module.exports = {
     description: 'Pixel perfect discord embed for your website.',
     head: [
         ['script', {src: 'https://cdn.jsdelivr.net/npm/@widgetbot/crate@3', async: true, defer: true},
-        'const crate = new Crate({server: \'299881420891881473\', channel: \'299881420891881473\'})']
+        "const crate = new Crate({server: '299881420891881473', channel: '299881420891881473', shard: 'https://emerald.widgetbot.io'})"]
     ],
     host: 'localhost',
     themeConfig: {
