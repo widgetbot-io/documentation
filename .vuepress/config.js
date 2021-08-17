@@ -95,6 +95,14 @@ module.exports = {
                             ]
                         }
                     ]
+                },
+                {
+                    title: 'Bot',
+                    path: '',
+                    collapsable: false,
+                    children: [
+                        '/bot/moderation'
+                    ]
                 }
             ]
         },
