@@ -16,5 +16,5 @@ discord.on('MESSAGE_CREATE', async (msg) => {
 Paste that in and save. Pylon should now instantly delete messages containing an invite link.
 
 ::: tip Need help with Pylon?
-Go to the [Pylon Discord server](https://discord.gg/hC6Bbtj) to get help with using Pylon.
+Go to the [Pylon Discord server](https://discord.gg/dY42R4SFAJ) to get help with using Pylon.
 :::
