@@ -22,6 +22,10 @@ interface Options {
   server: string
   channel?: string
 
+  // Dynamic username and avatar
+  username?: string
+  avatar?: url
+
   // Where the button should appear on-screen
   location?: [vertical, horizontal]
 

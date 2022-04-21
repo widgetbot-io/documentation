@@ -6,11 +6,15 @@ The WidgetBot component accepts the following props
 
 ```ts
 interface IProps {
-  server?: string
+  server: string
   channel?: string
-  shard?: string
+
+  username?: string
+  avatar?: string
 
   defer?: boolean
+
+  shard?: string
 
   className?: string
   onAPI?: (api: Client) => void

@@ -23,6 +23,10 @@ interface Attributes {
   server: string
   channel?: string
 
+  // Dynamic username and avatar
+  username?: string
+  avatar?: url
+
   // The height and width. You can specify a number to
   // use pixels or use CSS units eg. 100%
   width?: number | string
