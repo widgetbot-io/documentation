@@ -91,7 +91,18 @@ module.exports = {
                             collapsable: false,
                             children: [
                                 {title: 'Intro', path: '/embed/react-embed/'},
-                                {title: 'Props', path: 'embed/react-embed/props'}
+                                {title: 'Props', path: 'embed/react-embed/props'},
+                                {title: 'API', path: 'embed/react-embed/api'}
+                            ]
+                        },
+                        {
+                            title: 'embed-api',
+                            path: '/embed/embed-api/',
+                            collapsable: false,
+                            children: [
+                                {title: 'Intro', path: '/embed/embed-api/'},
+                                {title: 'Commands', path: 'embed/embed-api/commands'},
+                                {title: 'Events', path: 'embed/embed-api/events'}
                             ]
                         }
                     ]

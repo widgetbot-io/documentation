@@ -59,7 +59,7 @@ crate.notify(`**hello** world`)
 crate.notify({
   content: '`2 seconds`',
   timeout: 2000,
-  avatar: 'https://cdn.samdd.me/samdd-logo/variations/logo.png'
+  avatar: 'https://cdn.discordapp.com/avatars/293731150239891456/f7d78d0c7e6522ed296bfa315b3a1969.png'
 })
 
 // Programmatically hide notification
@@ -72,7 +72,7 @@ notification.hide()
 ```
 :::
 <b>Try it:</b> <button class="try-it" onClick="crate.notify('**hello** world')">hello world</button>
-<button class="try-it" onClick="crate.notify({content:'\`2 seconds\`',timeout:2000, avatar:'https://cdn.samdd.me/samdd-logo/variations/logo.png'})">2 seconds + avatar</button>
+<button class="try-it" onClick="crate.notify({content:'\`2 seconds\`',timeout:2000, avatar:'https://cdn.discordapp.com/avatars/293731150239891456/f7d78d0c7e6522ed296bfa315b3a1969.png'})">2 seconds + avatar</button>
 
 ---
 
@@ -84,7 +84,7 @@ notification.hide()
 type setOptions = (newOptions: Options) => Options
 ```
 :::
-Updates the options for crate in real time. [Available options](options.d)
+Updates the options for crate in real time. [Available options](options.md)
 
 ::: tip Usage
 
@@ -128,33 +128,59 @@ crate.show()
 
 ---
 
+### Navigation
+
+::: tip Definition
+
+```ts
+type navigate = (channelID: string) => void
+```
+:::
+Navigates to a different channel and opens the widget if it's closed
+
+::: tip Usage
+
+```js
+// Navigates to #general
+crate.navigate('368427726358446110')
+
+// Navigates to #live-demo
+crate.navigate('355719584830980096')
+```
+:::
+<b>Try it:</b> <button class="try-it" onClick="crate.navigate('368427726358446110')">#general</button> <button class="try-it" onClick="crate.navigate('355719584830980096')">#live-demo</button>
+
+---
+
 ## Embed API
 
-:::warning
-This is not currently implemented in the latest version of WidgetBot.
-:::
 
 ### Emit
 
 ::: tip Definition
 
 ```ts
-type emit = <Event>(event: Event, data: Events[Event]) => void
+type emit = <Event>(event: Event, data?: Events[Event]) => void
 ```
 :::
 Emits an event to the `embed-api`
 
+For details, see [embed-api commands](/embed/embed-api/commands.md)
+
 ::: tip Usage
 
 ```js
-// Send a message on the active Discord channel
-crate.emit('sendMessage', 'hi')
-
-// Send a message on a specific Discord channel
-crate.emit('sendMessage', {
-  channel: '123456789',
-  message: 'hi'
+// Navigate to a different server/channel
+crate.emit('navigate', {
+  guild: '299881420891881473',
+  channel: '368427726358446110'
 })
+
+// Request login
+crate.emit('login')
+
+// Log out
+crate.emit('logout')
 ```
 :::
 ---
@@ -164,27 +190,29 @@ crate.emit('sendMessage', {
 ::: tip Definition
 
 ```ts
-type on = <Event>(event: Event, (data: Events[Event]) => void) => void
+type on = <Event>(event: Event, (data?: Events[Event]) => void) => void
 ```
 :::
 Listens for a specific event from the `embed-api`
+
+For details, see [embed-api events](/embed/embed-api/events.md)
 
 ::: tip Usage
 
 ```js
 // Listens for when the user has signed in
 crate.on('signIn', (user) => {
-  console.log(`Guest signed in as ${user.name}`, user)
+  console.log(`User signed in as ${user.username}`, user)
 })
 
 // Listen for discord message events
 crate.on('message', ({ message, channel }) => {
-  console.log(`New message in ${channel}`, message)
+  console.log(`New message in #${channel.name}`, message)
 })
 
 // Listen for discord message delete events
 crate.on('messageDelete', ({ channel, id }) => {
-  console.log(`Message in ${channel} with an ID of ${id}, was deleted`)
+  console.log(`Message ${id} in #${channel.name} was deleted`)
 })
 ```
 :::

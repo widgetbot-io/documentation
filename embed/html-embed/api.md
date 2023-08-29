@@ -15,20 +15,18 @@ const embed = document.getElementById('embed')
 
 ## Embed API
 
-:::warning
-This is not currently implemented in the latest version of WidgetBot.
-:::
-
 ### Emit
 
 ::: tip Definition
 
 ```ts
-type emit = <Event>(event: Event, data: Events[Event]) => void
+type emit = <Event>(event: Event, data?: Events[Event]) => void
 ```
 :::
 
 Emits an event to the `embed-api`
+
+For details, see [embed-api commands](/embed/embed-api/commands.md)
 
 ::: tip Usage
 
@@ -50,28 +48,30 @@ embed.emit('sendMessage', {
 ::: tip Definition
 
 ```ts
-type on = <Event>(event: Event, (data: Events[Event]) => void) => void
+type on = <Event>(event: Event, (data?: Events[Event]) => void) => void
 ```
 :::
 
 Listens for a specific event from the `embed-api`
+
+For details, see [embed-api events](/embed/embed-api/events.md)
 
 ::: tip Usage
 
 ```js
 // Listens for when the user has signed in
 embed.on('signIn', (user) => {
-  console.log(`Guest signed in as ${user.name}`, user)
+  console.log(`User signed in as ${user.username}`, user)
 })
 
 // Listen for discord message events
 embed.on('message', ({ message, channel }) => {
-  console.log(`New message in ${channel}`, message)
+  console.log(`New message in #${channel.name}`, message)
 })
 
 // Listen for discord message delete events
 embed.on('messageDelete', ({ channel, id }) => {
-  console.log(`Message in ${channel} with an ID of ${id}, was deleted`)
+  console.log(`Message ${id} in #${channel.name} was deleted`)
 })
 ```
 :::

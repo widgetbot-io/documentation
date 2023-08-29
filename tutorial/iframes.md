@@ -3,7 +3,7 @@
 Welcome to the iframe tutorial!
 
 ::: tip Important
-**This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite the bot**.
+**This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial/README.md) tutorial.** If you have not, please read it and **invite the bot**.
 :::
 
 ::: tip Need help?
@@ -11,7 +11,7 @@ If you need any assistance adding WidgetBot, please ask in [the server](https://
 :::
 
 ::: warning Important
-Using an iframe may break the browser's back button. We recommend using [html-embed](/embed/html-embed/tutorial) or [react-embed](/embed/react-embed) when you can use JavaScript.
+Using an iframe may break the browser's back button. We recommend using [html-embed](/embed/html-embed/tutorial.md) or [react-embed](/embed/react-embed/README.md) when you can use JavaScript.
 :::
 
 ## Getting Started
@@ -20,7 +20,7 @@ To get started, add the following code where you want the widget to display.
 
 :::tip Example Code
 ```html
-<iframe src="https://e.widgetbot.io/channels/299881420891881473/355719584830980096" height="600" width="800"></iframe>
+<iframe src="https://e.widgetbot.io/channels/299881420891881473/355719584830980096" allow="clipboard-write; fullscreen" height="600" width="800"></iframe>
 ```
 :::
 If you run your site with this code, you should see the widget, showing the official WidgetBot server.
@@ -35,6 +35,8 @@ https://e.widgetbot.io/channels/SERVERID/CHANNELID
 In the example code, the SERVERID is `299881420891881473` and the CHANNELID is `355719584830980096`.
 
 To set it to your server, you must change the Server ID and Channel ID.
+
+You can get your URL by right-clicking the channel in Discord, clicking **Copy Link**, and editing `discord.com` to `e.widgetbot.io`. Alternatively, you can manually get the IDs and create the URL:
 
 You can get the Server and Channel IDs from Discord: Go to the Appearance tab in User Settings, and turn on Developer Mode. Then, right-click the server icon or channel and click `Copy ID`.
 

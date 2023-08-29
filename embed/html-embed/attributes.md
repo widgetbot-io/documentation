@@ -23,9 +23,20 @@ interface Attributes {
   server: string
   channel?: string
 
+  // Thread ID
+  thread?: string
+
   // Dynamic username and avatar
   username?: string
   avatar?: url
+
+  // JWT login
+  token?: string
+
+  // Enables notifications for messages in other channels
+  notifications?: boolean
+  // Embed notification timeout
+  notificationtimeout?: number
 
   // The height and width. You can specify a number to
   // use pixels or use CSS units eg. 100%

@@ -8,7 +8,7 @@ new Crate({ server: '299881420891881473', location: ['top', 'left'] })
 
 ## Definitions
 
-::: tip Typescript definitions
+::: tip TypeScript definitions
 
 ```ts
 type url = string
@@ -22,9 +22,21 @@ interface Options {
   server: string
   channel?: string
 
-  // Dynamic username and avatar
+  // Thread ID
+  thread?: string
+
+  // Dynamic username
   username?: string
-  avatar?: url
+  // Dynamic avatar
+  avatar?: string
+
+  // Accessibility settings
+  accessibility?: string[]
+  // The settings group to use
+  settingsGroup?: string
+
+  // JWT login
+  token?: string
 
   // Where the button should appear on-screen
   location?: [vertical, horizontal]
@@ -36,12 +48,17 @@ interface Options {
   // Custom CSS to be injected into the Shadow root
   css?: string
 
-  // Message notifications
+  // Crate message notifications
   notifications?: boolean
-  // Unread message indicator
+  // Crate unread message indicator
   indicator?: boolean
-  // Notification timeout
+  // Crate notification timeout
   timeout?: number
+
+  // Enables notifications to be triggered for all channels, in crate and embed
+  allChannelNotifications?: boolean
+  // Embed notification timeout
+  embedNotificationTimeout?: number
 
   // Only load the widget once the user opens it
   defer?: boolean

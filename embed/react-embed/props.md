@@ -9,8 +9,18 @@ interface IProps {
   server: string
   channel?: string
 
+  thread?: string
+
   username?: string
   avatar?: string
+
+  accessibility?: string[]
+  settingsGroup?: string
+
+  token?: string
+
+  notifications?: boolean
+  notificationTimeout?: number
 
   defer?: boolean
 

@@ -3,7 +3,7 @@
 Welcome to the Crate tutorial!
 
 ::: warning Important
-**This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial) tutorial.** If you have not, please read it and **invite the bot**.
+**This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial/README.md) tutorial.** If you have not, please read it and **invite the bot**.
 :::
 
 ::: tip Need help?
@@ -36,10 +36,10 @@ You have successfully set up WidgetBot. However you can further customize Widget
 ## Further customization
 
 ### Options
-This tutorial showed you the `server` and `channel` options. However, there are many other options you can set, letting you do things such as change the location, the color and icon, toggling message notifications, and more. For a full list of options, click [here](/embed/crate/options).
+This tutorial showed you the `server` and `channel` options. However, there are many other options you can set, letting you do things such as change the location, the color and icon, toggling message notifications, and more. For a full list of options, click [here](/embed/crate/options.md).
 
 ### API
-You can use Crate's API to do things such as changing options, showing notifications, and toggling the widget through JavaScript. You can also access WidgetBot's [embed-api](https://github.com/widgetbot-io/embed-api). For more info, click [here](/embed/crate/api).
+You can use Crate's API to do things such as changing options, showing notifications, and toggling the widget through JavaScript. You can also access WidgetBot's [embed-api](/embed/embed-api/README.md). For more info, click [here](/embed/crate/api.md).
 
 ### Examples
 You can see tons of Crate examples [here](/embed/crate/examples.md).
