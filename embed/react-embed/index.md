@@ -5,9 +5,9 @@
 ---
 
 :::tip react-embed
-[`@widgetbot/react-embed`](/embed/react-embed/README.md) provides access to the embed as a React component. It provides syntactical sugar for the `embed-api`, with 100% type safety (using TypeScript).
+[`@widgetbot/react-embed`](/embed/react-embed/) provides access to the embed as a React component. It provides syntactical sugar for the `embed-api`, with 100% type safety (using TypeScript).
 :::
-```ts
+```tsx
 import WidgetBot from '@widgetbot/react-embed'
 
 const App = () => (

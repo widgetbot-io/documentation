@@ -5,16 +5,11 @@
   "repository": "git@github.com:widgetbot-io/documentation.git",
   "author": "Daave <daave@widgetbot.io>",
   "scripts": {
-    "docs:dev": "node node_modules/vuepress/cli.js dev",
-    "docs:build": "node node_modules/vuepress/cli.js build"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vuepress": "^1.9.10",
-    "vuepress-plugin-clean-urls": "^1.1.2",
-    "vuepress-plugin-nprogress": "^1.1.8"
-  },
-  "volta": {
-    "node": "16.20.2",
-    "yarn": "1.22.19"
+    "vitepress": "^1.0.0-rc.30"
   }
 }

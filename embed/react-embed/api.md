@@ -1,6 +1,6 @@
 # react-embed API
 
-You can access [embed-api](/embed/embed-api/README.md) by passing a function to the `onAPI` prop.
+You can access [embed-api](/embed/embed-api/) by passing a function to the `onAPI` prop.
 
 ```ts
 import WidgetBot from '@widgetbot/react-embed'

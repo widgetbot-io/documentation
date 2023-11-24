@@ -84,7 +84,7 @@ notification.hide()
 type setOptions = (newOptions: Options) => Options
 ```
 :::
-Updates the options for crate in real time. [Available options](options.md)
+Updates the options for crate in real time. [Available options](options)
 
 ::: tip Usage
 
@@ -165,7 +165,7 @@ type emit = <Event>(event: Event, data?: Events[Event]) => void
 :::
 Emits an event to the `embed-api`
 
-For details, see [embed-api commands](/embed/embed-api/commands.md)
+For details, see [embed-api commands](/embed/embed-api/commands)
 
 ::: tip Usage
 
@@ -195,7 +195,7 @@ type on = <Event>(event: Event, (data?: Events[Event]) => void) => void
 :::
 Listens for a specific event from the `embed-api`
 
-For details, see [embed-api events](/embed/embed-api/events.md)
+For details, see [embed-api events](/embed/embed-api/events)
 
 ::: tip Usage
 

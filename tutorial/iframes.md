@@ -3,7 +3,7 @@
 Welcome to the iframe tutorial!
 
 ::: tip Important
-**This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial/README.md) tutorial.** If you have not, please read it and **invite the bot**.
+**This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial/) tutorial.** If you have not, please read it and **invite the bot**.
 :::
 
 ::: tip Need help?
@@ -11,7 +11,7 @@ If you need any assistance adding WidgetBot, please ask in [the server](https://
 :::
 
 ::: warning Important
-Using an iframe may break the browser's back button. We recommend using [html-embed](/embed/html-embed/tutorial.md) or [react-embed](/embed/react-embed/README.md) when you can use JavaScript.
+Using an iframe may break the browser's back button. We recommend using [html-embed](/embed/html-embed/tutorial) or [react-embed](/embed/react-embed/) when you can use JavaScript.
 :::
 
 ## Getting Started

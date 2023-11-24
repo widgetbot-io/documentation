@@ -3,7 +3,7 @@
 Welcome to the html-embed tutorial!
 
 :::tip Important
-**This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial/README.md) tutorial.** If you have not, please read it and **invite the bot**.
+**This tutorial assumes you have already completed the [Getting Started with WidgetBot](/tutorial/) tutorial.** If you have not, please read it and **invite the bot**.
 :::
 
 :::tip Need help?
@@ -43,4 +43,4 @@ Once you set the Server ID and Channel ID, the widget should now show your serve
 You have successfully set up WidgetBot. However you can further customize WidgetBot to your needs. Read below for more info.
 :::
 ## API
-You can use html-embed's API to access WidgetBot's [embed-api](/embed/embed-api/README.md). For more info, click [here](/embed/html-embed/api.md).
+You can use html-embed's API to access WidgetBot's [embed-api](/embed/embed-api/). For more info, click [here](/embed/html-embed/api).

@@ -1,6 +1,6 @@
 # Automod
 
-Many automod bots will ignore messages sent via WidgetBot, which can be annoying to admins. A solution is using [Pylon](https://pylon.bot) and code it yourself. In this guide, we'll make a simple check to delete invite links.
+Many automod bots will ignore messages sent via WidgetBot, which can be annoying to admins. A solution is using [Pylon](https://pylon.bot) and coding it yourself. In this guide, we'll make a simple check to delete invite links.
 
 First, you'll need to [add the Pylon bot to your server](https://pylon.bot/studio/add-guild).  
 Then, click your server in the list and click "Open Code Editor". Delete the example code in the editor, so it's blank.

@@ -2,5 +2,7 @@ site
 .DS_Store
 .idea/workspace.xml
 /.vuepress/dist/
+.vitepress/dist
+.vitepress/cache
 /node_modules/
 debug.log
