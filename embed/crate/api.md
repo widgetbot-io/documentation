@@ -45,7 +45,7 @@ type notify = (
       content: string
       timeout?: number
     }
-  ) => { hide: Function; delete: Function }
+  ) => { hide: Function }
 ```
 :::
 Displays a notification message to the user. Markdown supported
