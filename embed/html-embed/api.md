@@ -3,7 +3,7 @@ prev:
   text: 'Attributes'
   link: '/embed/html-embed/attributes'
 next:
-  text: 'Intro'
+  text: 'react-embed'
   link:  '/embed/react-embed/'
 ---
 

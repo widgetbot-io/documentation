@@ -3,7 +3,7 @@ prev:
   text: 'Props'
   link: '/embed/react-embed/props'
 next:
-  text: 'Intro'
+  text: 'embed-api'
   link:  '/embed/embed-api/'
 ---
 
