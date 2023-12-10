@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Intro'
+  link: '/embed/embed-api/'
+next:
+  text: 'Events'
+  link:  '/embed/embed-api/events'
+---
+
 # Commands
 
 `embed-api` commands (client events) are used to control the state of the embed.

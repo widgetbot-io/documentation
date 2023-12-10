@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Props'
+  link: '/embed/react-embed/props'
+next:
+  text: 'embed-api'
+  link:  '/embed/embed-api/'
+---
+
 # react-embed API
 
 You can access [embed-api](/embed/embed-api/) by passing a function to the `onAPI` prop.

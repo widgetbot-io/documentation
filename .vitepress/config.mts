@@ -65,12 +65,15 @@ export default defineConfig({
               link: '/embed/crate/',
               items: [
                 { text: 'Intro', link: '/embed/crate/' },
-                { text: 'Tutorial', link: 'embed/crate/tutorial' },
-                { text: 'Options', link: 'embed/crate/options' },
-                { text: 'API', link: 'embed/crate/api' },
-                { text: 'Examples', link: 'embed/crate/examples' }
+                { text: 'Tutorial', link: '/embed/crate/tutorial' },
+                { text: 'Options', link: '/embed/crate/options' },
+                { text: 'API', link: '/embed/crate/api' },
+                { text: 'Examples', link: '/embed/crate/examples' }
               ]
             },
+            
+            
+            
             {
               text: 'html-embed',
               link: '/embed/html-embed/',

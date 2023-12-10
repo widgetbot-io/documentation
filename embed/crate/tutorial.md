@@ -43,3 +43,4 @@ You can use Crate's API to do things such as changing options, showing notificat
 
 ### Examples
 You can see tons of Crate examples [here](/embed/crate/examples).
+
