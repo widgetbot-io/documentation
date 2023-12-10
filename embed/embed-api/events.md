@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Commands'
+  link: '/embed/embed-api/commands'
+next:
+  text: 'Moderation'
+  link:  '/bot/moderation'
+---
+
 # Events
 
 `embed-api` events (server events) are used to listen to actions that occur in the embed.

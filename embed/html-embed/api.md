@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Attributes'
+  link: '/embed/html-embed/attributes'
+next:
+  text: 'Intro'
+  link:  '/embed/react-embed/'
+---
+
 # html-embed API
 
 Once you've created a new WidgetBot element, the `html-embed` script adds the API methods onto the Elements prototype.

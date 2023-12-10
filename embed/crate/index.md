@@ -1,11 +1,20 @@
+---
+next:
+  text: 'tutorial'
+  link: '/embed/crate/tutorial'
+---
+
 # Crate
+
 
 ![Demo](https://i.imgur.com/oq4W4Rk.gif)
 
----
+
 ::: tip Crate (recommended)
 [`@widgetbot/crate`](/embed/crate/tutorial) provides a little chat button in the corner of your website. It shows message notifications from your server and provides an extensive API.
 :::
+
+
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
@@ -15,3 +24,4 @@
   })
 </script>
 ```
+

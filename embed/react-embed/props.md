@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Intro'
+  link: '/embed/react-embed/'
+next:
+  text: 'API'
+  link:  '/embed/react-embed/api'
+---
+
 The WidgetBot component accepts the following props
 
 ## Props

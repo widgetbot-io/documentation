@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Tutorial'
+  link: '/embed/html-embed/tutorial'
+next:
+  text: 'API'
+  link:  '/embed/html-embed/api'
+---
+
 # html-embed Attributes
 
 You can pass custom attributes to the `<widgetbot>` element, to change the options when initializing it, for example:

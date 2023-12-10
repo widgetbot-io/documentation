@@ -1,3 +1,9 @@
+---
+next:
+  text: 'Tutorial'
+  link:  '/embed/html-embed/tutorial'
+---
+
 # html-embed
 
 ![Demo](https://i.imgur.com/Dgd7dKI.png)
