@@ -29,7 +29,7 @@ export default defineConfig({
       { text: 'Docs', link: '/', activeMatch: '^(\/$|\/[^g])' },
       { text: 'Guides', link: '/guides/', activeMatch: '/guides/' },
       { text: 'Pricing', link: 'https://widgetbot.io/pricing', target: '_self' },
-      { text: 'Blog', link: 'https://blog.widgetbot.io', target: '_self'}
+      // { text: 'Blog', link: 'https://blog.widgetbot.io', target: '_self'}
     ],
     sidebar: {
       '/guides/': [
@@ -110,7 +110,7 @@ export default defineConfig({
       ]
     },
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/RVNmwdy' },
+      { icon: 'discord', link: 'https://discord.gg/widgetbot' },
       { icon: 'github', link: 'https://github.com/widgetbot-io/embed' },
       { icon: 'twitter', link: 'https://twitter.com/widgetbot_io' }
     ],
