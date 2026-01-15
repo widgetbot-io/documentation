@@ -29,7 +29,7 @@ export default defineConfig({
       { text: 'Docs', link: '/', activeMatch: '^(\/$|\/[^g])' },
       { text: 'Guides', link: '/guides/', activeMatch: '/guides/' },
       { text: 'Pricing', link: 'https://widgetbot.io/pricing', target: '_self' },
-      // { text: 'Blog', link: 'https://blog.widgetbot.io', target: '_self'}
+      { text: 'Dashboard', link: 'https://dash.widgetbot.io', target: '_self' },
     ],
     sidebar: {
       '/guides/': [
@@ -45,7 +45,10 @@ export default defineConfig({
       '/': [
         {
           text: 'WidgetBot',
-          link: '/'
+          link: '/',
+          items: [
+            { text: 'Dashboard', link: 'https://dash.widgetbot.io' }
+          ]
         },
         {
           text: 'Tutorial',
