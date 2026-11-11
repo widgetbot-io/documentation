@@ -35,6 +35,16 @@ embed.emit('logout')
 ```
 :::
 
+### setChatVisible
+
+On Discord v3, tell WidgetBot when your site shows or hides the chat. This lets the embed keep receiving DMs while hidden and acknowledge them when the user can see the open conversation. Pass `true` when visible and `false` when hidden. [Unread DM badge example](events#unreaddirectmessagecount)
+
+::: tip Usage
+```js
+embed.emit('setChatVisible', false)
+```
+:::
+
 ### Demo
 
 <iframe height="580" style="width: 100%;" scrolling="no" title="embed-api commands" src="https://codepen.io/advaith1/embed/NWexQLJ?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
